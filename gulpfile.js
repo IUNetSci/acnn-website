@@ -2,7 +2,7 @@ var gulp = require('gulp'),
 	util = require("gulp-util"),
 	sass = require('gulp-sass'),
 	livereload = require('gulp-livereload'),
-	cssnano = require('gulp-cssnano'),
+	// cssnano = require('gulp-cssnano'),
 	log = util.log;
 
 var sassFiles = "site/assets/css/*.scss";
@@ -20,15 +20,16 @@ gulp.task('sass', function(){
 });
 
 gulp.task('reload', function(){
-	setTimeout(
-		function(){gulp.src("*")
+	// setTimeout(
+		// function(){
+			gulp.src("*")
 		.pipe(livereload());
-	}, 1000);
+	// }, 1000);
 });
 
 gulp.task("watch", function(){
 	livereload.listen();
-	gulp.watch(["**/*.html", "**/*.twig", "php/*.php", "**/*.css", "**/*.scss", "**/*.md"], ["reload"]);
+	gulp.watch(["**/*.html", "**/*.twig", "php/*.php", "**/*.css", "**/*.scss", "**/*.md", "**/*.js"], ["reload"]);
 	console.log("Watching...");
 });
 
