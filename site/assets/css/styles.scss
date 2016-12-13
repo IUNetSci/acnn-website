@@ -67,8 +67,6 @@
 @import "../../../node_modules/bootstrap/scss/popover";
 @import "../../../node_modules/bootstrap/scss/carousel"; // Utility classes
 @import "../../../node_modules/bootstrap/scss/utilities"; //
-
-
 @import "./workshops";
 @import "./news";
 @import "./resources";
@@ -78,15 +76,31 @@
 @import "./contact";
 @import "./donate";
 
-
-
-h2
-{
+h2 {
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 1.25rem;
+	margin-bottom: 4rem;
+
+	span {
+		padding-bottom: 1rem;
+		border-bottom: solid 1px $brand-primary;
+	}
 }
-p
+
+section
 {
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+
+
+p {
 	color: gray;
+}
+
+footer
+{
+	padding-top: 4rem;
+	padding-bottom: 4rem;
 }
