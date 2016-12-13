@@ -1,0 +1,22 @@
+#resources
+{
+	table
+	{
+		font-size: .875rem;
+		margin-top: 4rem;
+
+		th
+		{
+			white-space: nowrap;
+			padding-right: 1rem;
+			font-weight: normal;
+			color: $gray-light;
+		}
+
+		td
+		{
+			padding-top: 1rem;
+			vertical-align: top;
+		}
+	}
+}
