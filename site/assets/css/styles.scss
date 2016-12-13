@@ -70,6 +70,9 @@
 
 
 @import "./workshops";
+@import "./news";
+@import "./resources";
+@import "./training";
 @import "./research";
 @import "./partners";
 @import "./contact";
@@ -82,5 +85,8 @@ h2
 	text-align: center;
 	text-transform: uppercase;
 	font-size: 1.25rem;
-
+}
+p
+{
+	color: gray;
 }
