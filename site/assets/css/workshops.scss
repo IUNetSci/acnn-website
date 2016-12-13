@@ -1,0 +1,29 @@
+#workshops
+{
+	div div .container
+	{
+		padding: 0 5px;
+	}
+	div div .container:first-child
+	{
+		padding-left: 0;
+	}
+	div div .container:last-child
+	{
+		padding-right: 0;
+	}
+
+	.card
+	{
+		height: 23rem;
+		position: relative;
+	}
+	.workshop_card_content
+	{
+		padding: 1rem;
+		position: absolute;
+		bottom: 0;
+		right: 0;
+		left: 0;
+	}
+}
