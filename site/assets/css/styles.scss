@@ -14,10 +14,10 @@
 // $card_bg_color: #ffffff;
 // $gray-darkest: #373a3c;
 // $gray-dark: #575757;
-// $gray: #646464;
-// $gray-light: #969696;
+$gray: #646464;
+$gray-light: #969696;
 // $gray-lighter: #efefef;
-// $gray-lightest: #f7f7f9 !default;
+$gray-lightest: #FAFAFA;
 // $brand-primary: #940E12;
 // $brand-success: #5cb85c;
 // $brand-info: #5bc0de;
@@ -31,8 +31,18 @@
 // $border-radius-lg: 0;
 // $border-radius-sm: 0;
 // $card-bg: $card_bg_color;
+
+$brand-primary: #359EC7;
+
 @import "../../../node_modules/bootstrap/scss/custom";
 @import "../../../node_modules/bootstrap/scss/variables";
+
+$big-h3: 1.25rem;
+$small-h3: 1rem;
+$big-p: 1rem;
+$small-p: .875rem;
+$text-color: $gray-light;
+
 @import "../../../node_modules/bootstrap/scss/mixins"; // Reset and dependencies
 @import "../../../node_modules/bootstrap/scss/normalize";
 @import "../../../node_modules/bootstrap/scss/print"; // Core CSS
@@ -76,6 +86,11 @@
 @import "./contact";
 @import "./donate";
 
+body
+{
+	color: $gray;
+}
+
 h2 {
 	text-align: center;
 	text-transform: uppercase;
@@ -91,6 +106,7 @@ h2 {
 .btn
 {
 	border-radius: 0;
+	background: white;
 }
 
 section
@@ -101,7 +117,7 @@ section
 
 
 p {
-	color: gray;
+	color: $text-color;
 }
 
 footer
