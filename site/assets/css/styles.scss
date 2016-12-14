@@ -91,6 +91,44 @@ body
 	color: $gray;
 }
 
+header
+{
+	background: darkblue;
+	color: white;
+	height: 23rem;
+	padding-top: 4rem;
+
+	h1
+	{
+		font-size: 2rem;
+	}
+
+	li
+	{
+		color: rgba(255, 255, 255, .5);
+		font-size: .875rem;
+		margin-left: 1rem;
+		margin-top: 4rem;
+
+		&:first-child
+		{
+			margin-left: 0;
+		}
+
+		span:first-child
+		{
+			// margin-right: 1rem;
+		}
+		span:first-child::after
+		{
+			content: "  -  ";
+		}
+	}
+}
+
+
+
+
 h2 {
 	text-align: center;
 	text-transform: uppercase;
