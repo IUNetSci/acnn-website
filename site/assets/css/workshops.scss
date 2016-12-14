@@ -75,7 +75,7 @@
 
 	$transition_time: .5s;
 
-	.col-xs-2 .workshop_card_content
+	.col-xs-1 .workshop_card_content
 	{
 		// display: none;
 		opacity: 0;
@@ -83,7 +83,7 @@
 		cursor: pointer;
 
 	}
-	.col-xs-6 .workshop_card_date_only
+	.col-xs-9 .workshop_card_date_only
 	{
 		// display: none;
 
@@ -91,13 +91,13 @@
 		transition: opacity $transition_time;
 	}
 
-	.col-xs-6 .workshop_card_content
+	.col-xs-9 .workshop_card_content
 	{
 		// display: none;
 		opacity: 1;
 		transition: opacity $transition_time;
 	}
-	.col-xs-2 .workshop_card_date_only
+	.col-xs-1 .workshop_card_date_only
 	{
 		// display: none;
 
@@ -108,7 +108,7 @@
 
 
 
-	.workshop_card.col-xs-2, .workshop_card.col-xs-6
+	.workshop_card.col-xs-1, .workshop_card.col-xs-9
 	{
 		transition: width $transition_time;
 	}

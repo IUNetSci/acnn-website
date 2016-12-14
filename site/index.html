@@ -48,7 +48,7 @@
 		<div class="container">
 			<h2><span>Workshops</span></h2>
 			<div>
-				<div class="workshop_card  container col-xs-2">
+				<div class="workshop_card  container col-xs-1">
 					<div class="card">
 						<div class="workshop_card_date_only">
 							2016
@@ -64,7 +64,7 @@
 					</div>
 				</div>
 
-				<div class="workshop_card container col-xs-6">
+				<div class="workshop_card container col-xs-9">
 					<div class="card">
 						<div class="workshop_card_date_only">
 							2017
@@ -80,7 +80,7 @@
 					</div>
 				</div>
 
-				<div class="workshop_card  container col-xs-2">
+				<div class="workshop_card  container col-xs-1">
 					<div class="card">
 						<div class="workshop_card_date_only">
 							2018
@@ -96,7 +96,7 @@
 					</div>
 				</div>
 
-				<div class="workshop_card  container col-xs-2">
+				<div class="workshop_card  container col-xs-1">
 					<div class="card">
 						<div class="workshop_card_date_only">
 							2019
@@ -411,8 +411,8 @@
 				<script>
 				$("#workshops").on("click", ".workshop_card", function(){
 					console.debug(this);
-					$("#workshops .workshop_card.col-xs-6").addClass("col-xs-2").removeClass("col-xs-6");
-					$(this).removeClass("col-xs-2").addClass("col-xs-6");
+					$("#workshops .workshop_card.col-xs-9").addClass("col-xs-1").removeClass("col-xs-9");
+					$(this).removeClass("col-xs-1").addClass("col-xs-9");
 				});
 				</script>
 			</body>
