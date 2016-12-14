@@ -172,11 +172,11 @@ section:nth-child(even)
 }
 
 
-p {
+p.faded {
 	color: $text-color;
 }
 
-#contact p, #donate p, #research p, #news p
+p
 {
 	color: $gray;
 }
