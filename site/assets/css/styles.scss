@@ -176,6 +176,11 @@ p {
 	color: $text-color;
 }
 
+#contact p, #donate p, #research p
+{
+	color: $gray;
+}
+
 footer
 {
 	padding-top: 4rem;
