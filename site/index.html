@@ -17,22 +17,22 @@
 
 	<nav class="navbar navbar-full navbar-dark bg-inverse">
 		<div class="container">
-			<a class="navbar-brand" href="/">ACNN</a>
+			<a class="navbar-brand" href="/#top">ACNN</a>
 			<button class="navbar-toggler hidden-md-up" type="button" data-toggle="collapse" data-target="#main_navbar" aria-controls="main_navbar" aria-expanded="false" aria-label="Toggle navigation"></button>
 			<ul class="nav navbar-nav collapse navbar-toggleable-sm float-md-right" id="main_navbar">
-				<li class='nav-item'><a href='' class='nav-link'>Workshops</a></li>
-				<li class='nav-item'><a href='' class='nav-link'>Events &amp; News</a></li>
-				<li class='nav-item'><a href='' class='nav-link'>Resources</a></li>
-				<li class='nav-item'><a href='' class='nav-link'>Training</a></li>
-				<li class='nav-item'><a href='' class='nav-link'>Research</a></li>
-				<li class='nav-item'><a href='' class='nav-link'>Partners &amp; Collaborations</a></li>
-				<li class='nav-item'><a href='' class='nav-link'>Contact</a></li>
-				<li class='nav-item'><a href='' class='nav-link'>Donate</a></li>
+				<li class='nav-item'><a href='#workshops' class='nav-link'>Workshops</a></li>
+				<li class='nav-item'><a href='#news' class='nav-link'>Events &amp; News</a></li>
+				<li class='nav-item'><a href='#resources' class='nav-link'>Resources</a></li>
+				<li class='nav-item'><a href='#training' class='nav-link'>Training</a></li>
+				<li class='nav-item'><a href='#research' class='nav-link'>Research</a></li>
+				<li class='nav-item'><a href='#partners' class='nav-link'>Partners &amp; Collaborations</a></li>
+				<li class='nav-item'><a href='#contact' class='nav-link'>Contact</a></li>
+				<li class='nav-item'><a href='#donate' class='nav-link'>Donate</a></li>
 			</ul>
 		</div>
 	</nav>
 
-	<header>
+	<header id="top">
 		<div class="container">
 			<h1 class="text-xs-center col-xs-8 offset-xs-2">A Midwest Advance Computational Neuroscience Network (ACNN) Spoke</h1>
 			<ul class="list-inline text-xs-center">
@@ -414,6 +414,22 @@
 					$("#workshops .workshop_card.col-xs-9").addClass("col-xs-1").removeClass("col-xs-9");
 					$(this).removeClass("col-xs-1").addClass("col-xs-9");
 				});
+
+				$(function() {
+					$('a[href*="#"]:not([href="#"])').click(function() {
+						if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+							var target = $(this.hash);
+							target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+							if (target.length) {
+								$('html, body').animate({
+									scrollTop: target.offset().top
+								}, 1000);
+								return false;
+							}
+						}
+					});
+				});
+
 				</script>
 			</body>
 			</html>

@@ -91,12 +91,19 @@ body
 	color: $gray;
 }
 
+nav.navbar
+{
+	position: fixed;
+	width: 100%;
+}
+
 header
 {
 	background: darkblue;
 	color: white;
-	height: 23rem;
-	padding-top: 4rem;
+	height: 27rem;
+	padding-top: 8rem;
+
 
 	h1
 	{
