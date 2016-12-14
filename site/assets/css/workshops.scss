@@ -17,6 +17,9 @@
 	{
 		height: 23rem;
 		position: relative;
+		background: $gray-dark;
+		color: white;
+		border: 0;
 	}
 	.workshop_card_content
 	{
@@ -26,4 +29,89 @@
 		right: 0;
 		left: 0;
 	}
+
+	.workshop_date
+	{
+		position: absolute;
+		left: 1rem;
+		top: 1rem;
+		width: 4rem;
+		text-align: right;
+	}
+
+
+	.workshop_days, .workshop_location
+	{
+		font-size: .75rem;
+		color: rgba(255, 255, 255, .6);
+	}
+
+
+	 .workshop_title, .workshop_location
+	 {
+		 margin-left: 5rem;
+	 }
+	 .workshop_year,
+	 .workshop_title,
+	 .workshop_card_date_only
+	 {
+		 font-size: 1.25rem;
+	 }
+
+	.workshop_card_date_only
+	{
+		background: rgba(255, 255, 255, .6);
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		text-align: center;
+		padding-top: (21rem/2);
+
+
+	}
+
+	$transition_time: .5s;
+
+	.col-xs-2 .workshop_card_content
+	{
+		// display: none;
+		opacity: 0;
+		transition: opacity $transition_time;
+		cursor: pointer;
+
+	}
+	.col-xs-6 .workshop_card_date_only
+	{
+		// display: none;
+
+		opacity: 0;
+		transition: opacity $transition_time;
+	}
+
+	.col-xs-6 .workshop_card_content
+	{
+		// display: none;
+		opacity: 1;
+		transition: opacity $transition_time;
+	}
+	.col-xs-2 .workshop_card_date_only
+	{
+		// display: none;
+
+		cursor: pointer;
+		opacity: 1;
+		transition: opacity $transition_time;
+	}
+
+
+
+	.workshop_card.col-xs-2, .workshop_card.col-xs-6
+	{
+		transition: width $transition_time;
+	}
+
+
 }

@@ -50,9 +50,12 @@
 			<div>
 				<div class="workshop_card  container col-xs-2">
 					<div class="card">
+						<div class="workshop_card_date_only">
+							2016
+						</div>
 						<div class="workshop_card_content">
 							<div class="workshop_date">
-								<div class="workshop_year">2017</div>
+								<div class="workshop_year">2016</div>
 								<div class="workshop_days">Sep 20 - 21</div>
 							</div>
 							<div class="workshop_title">International School and Conference on Network Science</div>
@@ -61,8 +64,11 @@
 					</div>
 				</div>
 
-				<div class="workshop_card  container col-xs-6">
+				<div class="workshop_card container col-xs-6">
 					<div class="card">
+						<div class="workshop_card_date_only">
+							2017
+						</div>
 						<div class="workshop_card_content">
 							<div class="workshop_date">
 								<div class="workshop_year">2017</div>
@@ -76,6 +82,9 @@
 
 				<div class="workshop_card  container col-xs-2">
 					<div class="card">
+						<div class="workshop_card_date_only">
+							2018
+						</div>
 						<div class="workshop_card_content">
 							<div class="workshop_date">
 								<div class="workshop_year">2017</div>
@@ -89,6 +98,9 @@
 
 				<div class="workshop_card  container col-xs-2">
 					<div class="card">
+						<div class="workshop_card_date_only">
+							2019
+						</div>
 						<div class="workshop_card_content">
 							<div class="workshop_date">
 								<div class="workshop_year">2017</div>
@@ -396,6 +408,12 @@
 					</div>
 				</footer>
 
-
+				<script>
+				$("#workshops").on("click", ".workshop_card", function(){
+					console.debug(this);
+					$("#workshops .workshop_card.col-xs-6").addClass("col-xs-2").removeClass("col-xs-6");
+					$(this).removeClass("col-xs-2").addClass("col-xs-6");
+				});
+				</script>
 			</body>
 			</html>
