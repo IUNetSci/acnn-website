@@ -86,9 +86,12 @@ $text-color: $gray-light;
 @import "./contact";
 @import "./donate";
 
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 body
 {
 	color: $gray;
+	font-family: 'Lato', sans-serif;
 }
 
 nav.navbar
