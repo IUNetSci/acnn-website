@@ -533,8 +533,12 @@ There isn't a rule. You just practice and find out which way works best for you.
 		</div>
 	</div>
 </footer>
-
+<script src="/assets/js/konami-code.js"></script>
 <script>
+new KonamiCode(function(){
+	$("section,header,footer").css({"background-image": "url('/assets/images/iuni_logo.png')", "background-size": "contain"});
+	console.debug("konami");
+});
 $("#workshops").on("click", ".workshop_card", function(){
 	console.debug(this);
 	$("#workshops .workshop_card.col-xs-9").addClass("col-xs-1").removeClass("col-xs-9");
