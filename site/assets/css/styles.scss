@@ -102,6 +102,19 @@ nav.navbar
 	padding-left: 0;
 	padding-right: 0;
 
+	.navbar-brand
+	{
+		font-weight: bold;
+		border-bottom: solid white 4px;
+		margin-bottom: -8px;
+		padding-bottom: 10px;
+	}
+
+	.nav-item a.nav-link
+	{
+		color: white;
+	}
+
 	@include media-breakpoint-only(md)
 	{
 		font-size: .625rem;
@@ -118,6 +131,8 @@ nav.navbar
 			margin: 0;
 		}
 	}
+
+
 
 }
 
