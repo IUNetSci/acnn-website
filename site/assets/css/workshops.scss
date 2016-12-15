@@ -29,6 +29,7 @@
 		bottom: 0;
 		right: 0;
 		left: 0;
+		background-color: rgba(0, 0, 0, .5);
 	}
 
 	.workshop_date
@@ -61,7 +62,8 @@
 
 	.workshop_card_date_only
 	{
-		background: rgba(255, 255, 255, .6);
+		// background: rgba(255, 255, 255, .6);
+		background-color: rgba(0, 0, 0, .5);
 		display: block;
 		position: absolute;
 		top: 0;
@@ -124,5 +126,24 @@
 		transition: width $transition_time;
 	}
 
+
+	#IU_card, #UM_card, #OSU_card
+	{
+		background-size: cover;
+		background-position: center center;
+	}
+	#IU_card
+	{
+		background-image: url("/assets/images/IU.jpg");
+	}
+	#UM_card
+	{
+		background-image: url("/assets/images/UM.jpg");
+	}
+
+	#OSU_card
+	{
+		background-image: url("/assets/images/OSU.jpg");
+	}
 
 }
