@@ -99,6 +99,23 @@ nav.navbar
 	padding-left: 0;
 	padding-right: 0;
 
+	@include media-breakpoint-only(md)
+	{
+		font-size: .625rem;
+		vertical-align: middle;
+	}
+	@include media-breakpoint-down(sm)
+	{
+		text-align: right;
+		vertical-align: middle;
+		li.nav-item + .nav-item
+		{
+			clear: both;
+			display: block;
+			margin: 0;
+		}
+	}
+
 }
 
 
@@ -107,13 +124,14 @@ header
 {
 	background: darkblue;
 	color: white;
-	height: 27rem;
+	min-height: 27rem;
 	padding-top: 8rem;
 
 
 	h1
 	{
 		font-size: 2rem;
+		margin-bottom: 4rem;
 	}
 
 	li
@@ -121,7 +139,7 @@ header
 		color: rgba(255, 255, 255, .5);
 		font-size: .875rem;
 		margin-left: 1rem;
-		margin-top: 4rem;
+		// margin-top: 4rem;
 
 		&:first-child
 		{
@@ -136,6 +154,10 @@ header
 		{
 			content: "  -  ";
 		}
+	}
+	ul
+	{
+		margin-bottom: 2rem;
 	}
 }
 
