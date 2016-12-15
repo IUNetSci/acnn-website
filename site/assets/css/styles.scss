@@ -123,6 +123,9 @@ nav.navbar
 header
 {
 	background: darkblue;
+	background-image: url("/assets/images/hero.jpg");
+	background-size: cover;
+	background-position: bottom center;
 	color: white;
 	min-height: 27rem;
 	padding-top: 8rem;
