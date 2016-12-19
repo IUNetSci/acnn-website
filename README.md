@@ -1,6 +1,10 @@
 # Website for ACNN
 ------------------
 
+## Content
+
+Content can be edited directly in `/site/index.html`.
+
 ## Development
 
 We use Bootstrap 4 and Sass for development.  It is compiled into `site/assets/css/styles.css`.
