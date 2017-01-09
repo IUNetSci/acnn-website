@@ -3,6 +3,8 @@
 
 ## Content
 
+Advanced Computational Neuroscience Network (ACNN)
+
 It is recommended that users open [an issue](https://github.com/IUNetSci/acnn-website/issues) to suggest content changes or report errors.
 
 Content can be edited directly in `/site/index.html`.
