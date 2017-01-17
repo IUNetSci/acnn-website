@@ -25,4 +25,4 @@ NPM itself depends on having Node.js installed.  Using NPM and its packages is e
 
 Harp is an NPM package that lets you run a microserver that automatically parses and transpiles scss files.
 
-To run harp, after installing the npm development packages, run the following command at the command line: `./harp server site`.  The site will then be viewable at `http://localhost:9000`.
+To run harp, after installing the npm development packages, run the following command at the command line: `./harp server docs`.  The site will then be viewable at `http://localhost:9000`.
