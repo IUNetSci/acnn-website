@@ -7,13 +7,13 @@ Advanced Computational Neuroscience Network (ACNN)
 
 It is recommended that users open [an issue](https://github.com/IUNetSci/acnn-website/issues) to suggest content changes or report errors.
 
-Content can be edited directly in `/site/index.html`.
+Content can be edited directly in `/docs/index.html`.
 
 ## Development
 
-We use Bootstrap 4 and Sass for development.  It is compiled into `site/assets/css/styles.css`.
+We use Bootstrap 4 and Sass for development.  It is compiled into `docs/assets/css/styles.css`.
 
-Index page can be found in `site/index.html`.
+Index page can be found in `docs/index.html`.
 
 ### NPM
 

@@ -5,16 +5,16 @@ var gulp = require('gulp'),
 	// cssnano = require('gulp-cssnano'),
 	log = util.log;
 
-var sassFiles = "site/assets/css/*.scss";
+var sassFiles = "docs/assets/css/*.scss";
 
 gulp.task('default', function(){
 });
 
 gulp.task('sass', function(){
 	log("Generate CSS files " + (new Date()).toString());
-	gulp.src("site/assets/css/styles.scss")
+	gulp.src("docs/assets/css/styles.scss")
 		.pipe(sass({ style: 'expanded' }))
-		.pipe(gulp.dest("site/assets/css"))
+		.pipe(gulp.dest("docs/assets/css"))
 		;
 	log("Generated");
 });
