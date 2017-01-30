@@ -34,3 +34,4 @@ node_modules
 
 
 #site/config/local_config.php
+/.idea/
