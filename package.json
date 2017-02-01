@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "README.md",
+  "author": "Christian",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:IUNetSci/acnn-workshop-websites.git"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

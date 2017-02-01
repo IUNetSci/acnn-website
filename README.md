@@ -6,7 +6,17 @@
 Advanced Computational Neuroscience Network (ACNN)
 
 ## How do i change the website content?
-For content changes (e.g., text content) edit the file in /docs/index.html. If this site is hosted on Github Pages, committing your changes will automatically update the site.
+For content changes (e.g., text content) edit the following files:
+
+/docs/index.html (main site)
+/docs/workshop-2016.html (workshop)
+/docs/workshop-2017.html (workshop)
+
+## How do i make the changes live?
+There are two ways:
+1. If this site is hosted on Github Pages, committing your changes will automatically update the site.
+2. As of 1/30/2017, the second hosting option is still being set up, and will either require FTP or a Git webhook. The procedure for updating these will be documented here. Stay tuned.
+
 
 ## How do i change the website layout, colors or graphics?
 For these types of changes, please open a github issue. This will notify the owner of the repository and start the change process.
@@ -22,9 +32,19 @@ A browser window should open the site at http://localhost:3000. Any changes to t
 ## I need to work on the code
 
 ### Structure
-We use Bootstrap 4 and Sass for development. It is compiled into docs/assets/css/styles.css.
+This repo combines three single-page sites, one of which has separate SCSS/CSS files.
 
-The index page can be found in docs/index.html.
+#### The main site
+/docs/index.html
+/docs/assets-main (Bootstrap 4/SCSS for the main site)
+
+#### The workshop sites
+/docs/workshop-2016.html
+/docs/workshop-2017.html
+/docs/assets-workshops (Bootstrap 4/CSS for the workshops)
+
+
+
 
 ### Dependencies
 
