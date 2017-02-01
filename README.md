@@ -43,9 +43,6 @@ This repo combines three single-page sites, one of which has separate SCSS/CSS f
 /docs/workshop-2017.html
 /docs/assets-workshops (Bootstrap 4/CSS for the workshops)
 
-
-
-
 ### Dependencies
 
 The Node Package Manager (npm) is used to manage dependencies. To install run time dependencies, use the command npm install from the command line. To install development dependencies such as Sass (if used) and Browser-sync, run npm install --dev.
