@@ -4784,13 +4784,13 @@ a.text-danger:focus, a.text-danger:hover {
   background-position: center center; }
 
 #workshops #IU_card {
-  background-image: url("/assets/images/IU.jpg"); }
+  background-image: url("../images/IU.jpg"); }
 
 #workshops #UM_card {
-  background-image: url("/assets/images/UM.jpg"); }
+  background-image: url("../images/UM.jpg"); }
 
 #workshops #OSU_card {
-  background-image: url("/assets/images/OSU.jpg"); }
+  background-image: url("../images/OSU.jpg"); }
 
 #news .news_article div {
   position: relative;
