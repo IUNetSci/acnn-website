@@ -155,16 +155,18 @@ header
 		margin-bottom: 4rem;
 	}
 
-	li
+	li, .universities div
 	{
 		color: rgba(255, 255, 255, .5);
 		font-size: .875rem;
-		margin-left: 1rem;
+		// margin-left: 1rem;
 		// margin-top: 4rem;
+
+		margin-bottom: 1rem;
 
 		&:first-child
 		{
-			margin-left: 0;
+			// margin-left: 0;
 		}
 
 		span:first-child
@@ -173,7 +175,7 @@ header
 		}
 		span:first-child::after
 		{
-			content: "  -  ";
+			// content: "  -  ";
 		}
 	}
 	ul
