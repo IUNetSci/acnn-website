@@ -4792,6 +4792,12 @@ a.text-danger:focus, a.text-danger:hover {
 #workshops #OSU_card {
   background-image: url("../images/OSU.jpg"); }
 
+#workshops a {
+  color: lightgray; }
+
+#workshops a:hover {
+  color: darkgray; }
+
 #news .news_article div {
   position: relative;
   height: 14rem;
@@ -4914,12 +4920,13 @@ header {
   background-position: bottom center;
   color: white;
   min-height: 27rem;
-  padding-top: 8rem; }
+  padding-top: 8rem;
+  text-shadow: 0 0 2px #000000; }
   header h1 {
     font-size: 2rem;
     margin-bottom: 4rem; }
   header li, header .universities div {
-    color: rgba(255, 255, 255, 0.5);
+    color: white;
     font-size: .875rem;
     margin-bottom: 1rem; }
   header ul {

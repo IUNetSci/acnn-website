@@ -148,6 +148,7 @@ header
 	min-height: 27rem;
 	padding-top: 8rem;
 
+	text-shadow: 0 0 2px #000000;
 
 	h1
 	{
@@ -157,7 +158,7 @@ header
 
 	li, .universities div
 	{
-		color: rgba(255, 255, 255, .5);
+		color: rgba(255, 255, 255, 1);
 		font-size: .875rem;
 		// margin-left: 1rem;
 		// margin-top: 4rem;
