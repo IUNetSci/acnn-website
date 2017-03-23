@@ -4917,7 +4917,7 @@ header {
   background: darkblue;
   background-image: url("../images/hero.jpg");
   background-size: cover;
-  background-position: bottom center;
+  background-position: 50% 88%;
   color: white;
   min-height: 27rem;
   padding-top: 8rem;
