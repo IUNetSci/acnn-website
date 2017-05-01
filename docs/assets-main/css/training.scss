@@ -1,0 +1,34 @@
+#training
+{
+	h3{
+		font-size: $small-h3;
+	}
+
+	.date_place, .teacher
+	{
+		font-size: $small-p;
+		color: $text-color;
+		margin-top: 1em; //em not rem
+	}
+	.location::before
+	{
+		content: " - ";
+	}
+
+	.teacher_picture
+	{
+		display: inline-block;
+
+		$picture_size: 2em;
+		height: $picture_size;
+		width: $picture_size;
+		background: green;
+		vertical-align: middle;
+		margin-right: .5em;
+	}
+
+	.training_session
+	{
+		padding-bottom: 3rem;
+	}
+}

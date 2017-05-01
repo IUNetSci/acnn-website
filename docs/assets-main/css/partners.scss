@@ -1,0 +1,23 @@
+#partners
+{
+	.partner h3{
+		font-size: $small-h3;
+	}
+	.partner p{
+		font-size: $small-p;
+	}
+
+	.partner_logo img
+	{
+		display: block;
+		width: 100%;
+		height: 100%;
+		// background: $brand-primary;
+	}
+
+	.partner
+	{
+		margin-bottom: 1rem;
+	}
+
+}

@@ -1,6 +1,5 @@
 # Logs
 logs
-*.log
 npm-debug.log*
 
 # Runtime data
@@ -34,3 +33,5 @@ node_modules
 
 
 #site/config/local_config.php
+/.idea/
+/docs/assets-workshops/src/
