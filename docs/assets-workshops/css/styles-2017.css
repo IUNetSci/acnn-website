@@ -863,6 +863,18 @@ footer .copyright {
 {
     background: url('../images/header-registration.jpg') no-repeat center fixed;
 }
+#lodging p
+{
+    margin-top: 0;
+}
+#lodging .color-overlay
+{
+    background-color: rgba(0,0,0,.8);
+}
+#lodging h3, #lodging h4
+{
+    font-weight: bold;
+}
 #working_groups
 {
     background: url('../images/header-working-groups.jpg') no-repeat center fixed;
