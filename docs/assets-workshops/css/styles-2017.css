@@ -863,7 +863,7 @@ footer .copyright {
 {
     background: url('../images/header-registration.jpg') no-repeat center fixed;
 }
-#lodging p
+#lodging p, #registration p
 {
     margin-top: 0;
 }
