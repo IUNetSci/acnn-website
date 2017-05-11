@@ -586,26 +586,26 @@ object {
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-.testimonials .left-align {
+.left-align {
     text-align: left;
     margin-bottom: 50px;
 }
 
-.testimonials .left-align p {
+.left-align p {
     display: block;
     float: none;
     margin-top: 50px;
 }
 
-.testimonials .left-align .feature-list {
+.left-align .feature-list {
     margin-top: 40px;
 }
 
-.testimonials .left-align .feature-list li {
+.left-align .feature-list li {
     margin-bottom: 26px;
 }
 
-.testimonials .left-align .feature-list li i {
+.left-align .feature-list li i {
     margin-right: 10px;
     vertical-align: inherit;
 }
@@ -859,7 +859,7 @@ footer .copyright {
 {
     background: url('../images/header-about.jpg') no-repeat center fixed;
 }
-#registration
+#lodging
 {
     background: url('../images/header-registration.jpg') no-repeat center fixed;
 }
@@ -867,7 +867,7 @@ footer .copyright {
 {
     background: url('../images/header-working-groups.jpg') no-repeat center fixed;
 }
-#sponsors
+#contact
 {
     background: url('../images/header-sponsors.jpg') no-repeat center fixed;
 }
