@@ -37,6 +37,11 @@ body {
     margin: auto !important;
 }
 
+h3, h4
+{
+    font-weight: bold;
+}
+
 
 /* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
 
@@ -166,13 +171,13 @@ h2 {
 h3 {
     font-size: 24px;
     line-height: 38px;
-    font-weight: 300;
+    font-weight: bold;
 }
 
 h4 {
     font-size: 20px;
     line-height: 30px;
-    font-weight: 300;
+    font-weight: bold;
 }
 
 h5 {
