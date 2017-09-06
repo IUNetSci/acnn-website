@@ -893,3 +893,9 @@ footer .responsive-img
 {
     max-width: 100%;
 }
+
+
+.testimonials table.table
+{
+    color: white;
+}
