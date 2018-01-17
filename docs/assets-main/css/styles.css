@@ -4941,6 +4941,9 @@ h2 {
     padding-bottom: 1rem;
     border-bottom: solid 1px #359EC7; }
 
+h3 {
+  font-size: 1.125rem; }
+
 .btn {
   border-radius: 0;
   background: white; }
