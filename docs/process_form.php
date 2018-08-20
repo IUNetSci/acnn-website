@@ -30,37 +30,37 @@ function get_emails()
 
 
 // if(in_array($this_form, $captcha_forms) )
-// {
+{
 
-//     if(!isset($_POST["g-recaptcha-response"]))
-//     {
-//         die("There was a problem.  You may be a bot.  Please go back and try again.");
-//     }
+    if(!isset($_POST["g-recaptcha-response"]))
+    {
+        die("There was a problem.  You may be a bot.  Please go back and try again.");
+    }
 
-//     $ch = curl_init();
-//     $captcha = $_POST["g-recaptcha-response"];
-//     $opts = "secret=6LdmbkYUAAAAAMbGCig6Ldzgm5aCrmtHcAIjQX9a&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR'];
-//     curl_setopt($ch, CURLOPT_URL,"https://www.google.com/recaptcha/api/siteverify");
-//     curl_setopt($ch, CURLOPT_POST, 1);
-//     curl_setopt($ch, CURLOPT_POSTFIELDS,
-//                 $opts);
+    $ch = curl_init();
+    $captcha = $_POST["g-recaptcha-response"];
+    $opts = "secret=6LdyoWgUAAAAALhOLaU-XWWC9jFkAWpib0F6SrbH&response=".$captcha."&remoteip=".$_SERVER['REMOTE_ADDR'];
+    curl_setopt($ch, CURLOPT_URL,"https://www.google.com/recaptcha/api/siteverify");
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_POSTFIELDS,
+                $opts);
 
-//     curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
-//     $server_output = curl_exec ($ch);
-//     curl_close ($ch);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    $server_output = curl_exec ($ch);
+    curl_close ($ch);
 
-//     $obj = json_decode($server_output);
+    $obj = json_decode($server_output);
 
-//     if($obj->success == true)
-//     {
-//         //passes test
-//     }
-//     else
-//     {
-//         //error handling
-//     	die("There was a problem.  You may be a bot.  Please go back and try again.");
-//     }
-// }
+    if($obj->success == true)
+    {
+        //passes test
+    }
+    else
+    {
+        //error handling
+    	die("There was a problem.  You may be a bot.  Please go back and try again.");
+    }
+}
 
 
 if(!empty($_POST))
