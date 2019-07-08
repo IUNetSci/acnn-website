@@ -168,24 +168,42 @@
 					</div>
 				</div>
 
-				<div class="workshop_card  container col-xs-9">
-					<div class="card" id="UM_card">
-						<div class="workshop_card_date_only">
-							<span>2019</span>
-						</div>
-						<div class="workshop_card_content">
-							<div class="workshop_date">
-								<div class="workshop_year">2019</div>
-								<div class="workshop_days">Sep 19-20</div>
+				<div class="workshop_card  container col-xs-8">
+						<div class="card" id="UM_card">
+							<div class="workshop_card_date_only">
+								<span>2019</span>
 							</div>
-							<div class="workshop_title"><a
-								href="ACNN_Workshop_2019.html">2019 ACNN Workshop on Big
-								Neuroscience Data, Tools, Protocols &amp; Services</a></div>
-							<div class="workshop_location">University of Michigan</div>
+							<div class="workshop_card_content">
+								<div class="workshop_date">
+									<div class="workshop_year">2019</div>
+									<div class="workshop_days">Sep 19-20</div>
+								</div>
+								<div class="workshop_title"><a
+									href="ACNN_Workshop_2019.html">2019 ACNN Workshop on Big
+									Neuroscience Data, Tools, Protocols &amp; Services</a></div>
+								<div class="workshop_location">University of Michigan</div>
+							</div>
 						</div>
 					</div>
-				</div>
 
+					<div class="workshop_card  container col-xs-1">
+							<div class="card" id="UIUC_card">
+								<div class="workshop_card_date_only">
+									<span>2020</span>
+								</div>
+								<div class="workshop_card_content">
+									<div class="workshop_date">
+										<div class="workshop_year">2020</div>
+										<div class="workshop_days">Sep</div>
+									</div>
+									<div class="workshop_title"><a
+										href="ACNN_Workshop_2019.html">2019 ACNN Workshop on Big
+										Neuroscience Data, Tools, Protocols &amp; Services</a></div>
+									<div class="workshop_location">University of Illinois at Urbana-Champaign</div>
+								</div>
+							</div>
+						</div>
+			
 			</div>
 		</div>
 	</section>
@@ -792,15 +810,15 @@
 				"click",
 				".workshop_card",
 				function() {
-					if($(this).hasClass("col-xs-9"))
+					if($(this).hasClass("col-xs-8"))
 					{
 						location.href=$(this).find("a").attr("href");
 					}
 
 					// console.debug($(this).hasClass("col-xs-9"));
-					$("#workshops .workshop_card.col-xs-9")
-							.addClass("col-xs-1").removeClass("col-xs-9");
-					$(this).removeClass("col-xs-1").addClass("col-xs-9");
+					$("#workshops .workshop_card.col-xs-8")
+							.addClass("col-xs-1").removeClass("col-xs-8");
+					$(this).removeClass("col-xs-1").addClass("col-xs-8");
 				});
 
 		$(function() {
