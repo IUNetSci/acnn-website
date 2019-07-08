@@ -754,7 +754,12 @@
 				"click",
 				".workshop_card",
 				function() {
-					console.debug(this);
+					if($(this).hasClass("col-xs-9"))
+					{
+						location.href=$(this).find("a").attr("href");
+					}
+
+					// console.debug($(this).hasClass("col-xs-9"));
 					$("#workshops .workshop_card.col-xs-9")
 							.addClass("col-xs-1").removeClass("col-xs-9");
 					$(this).removeClass("col-xs-1").addClass("col-xs-9");
