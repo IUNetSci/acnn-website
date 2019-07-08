@@ -14,6 +14,39 @@
 <script	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
 
 <script src='https://www.google.com/recaptcha/api.js'></script>
+<style>
+.d-flex-header
+	{
+		justify-content: center;
+		display: -ms-flexbox!important;
+		display: flex!important;
+	}	
+@media (min-width: 544px) {
+	.main-header
+	{
+		float: none;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.d-flex > div
+{
+	display: inline-block;
+	width: 45%;
+}
+}
+@media (min-width: 768px) {
+	.d-flex
+	{
+		justify-content: center;
+		display: -ms-flexbox!important;
+		display: flex!important;
+	}
+}
+  @media (min-width: 992px) {
+}
+  @media (min-width: 1200px) {
+}
+</style>
 </head>
 <body>
 
@@ -45,23 +78,28 @@
 	</nav>
 
 	<header id="top">
+		<div class="d-flex-header">
+		<h1 class="main-header text-xs-center col-sm-8">Advanced
+			Computational Neuroscience Network (ACNN) Spoke</h1>
+		</div>
 		<div class="container">
-			<h1 class="text-xs-center col-xs-8 offset-xs-2">Advanced
-				Computational Neuroscience Network (ACNN) Spoke</h1>
 
-			<div class="universities text-xs-center col-xl-8 row offset-xl-2 col-md-10 row offset-md-1  col-xs-12">
-				<div class=" col-lg-3 col-sm-6"><span>2016</span><br /><span>University
+			<div class="universities text-xs-center col-xl-8 row offset-xl-2 col-md-10 row offset-md-1 d-flex">
+				<div class=" "><span>2016</span><br /><span>University
 						of Michigan</span></div>
-				<div class=" col-lg-3 col-sm-6"><span>2017</span><br /><span>Indiana
+				<div class=" "><span>2017</span><br /><span>Indiana
 						University</span></div>
 
-				<div class="clearfix hidden-md-up"></div>
-
-				<div class=" col-lg-3 col-sm-6"><span>2018</span><br /><span>Ohio
-						State University</span><br /><span>Case Western Reserve University</p></div>
-
-				<div class=" col-lg-3 col-sm-6"><span>2019</span><br /><span>University
-						of Michigan</span></div>
+				<!-- <div class="clearfix hidden-md-up"></div> -->
+				
+				<div class=" "><span>2018</span><br /><span>Ohio
+					State University</span><br /><span>Case Western Reserve University</p></div>
+						
+						<div class=" "><span>2019</span><br /><span>University
+							of Michigan</span></div>
+							
+							<!-- <div class="clearfix hidden-md-up"></div> -->
+				<div class=" "><span>2020</span><br /><span>University of Illinois at Urbana-Champaign</span></div>
 			</div>
 		</div>
 	</header>
