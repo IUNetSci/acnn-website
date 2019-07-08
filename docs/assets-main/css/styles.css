@@ -4791,6 +4791,9 @@ a.text-danger:focus, a.text-danger:hover {
 
 #workshops #OSU_card {
   background-image: url("../images/OSU.jpg"); }
+    
+#workshops #UIUC_card {
+  background-image: url("../images/beckman.jpg"); }
 
 #workshops a {
   color: lightgray; }
