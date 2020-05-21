@@ -4763,11 +4763,11 @@ a.text-danger:focus, a.text-danger:hover {
   transition: opacity 0.5s;
   cursor: pointer; }
 
-#workshops .col-xs-8 .workshop_card_date_only {
+#workshops .col-xs-7 .workshop_card_date_only {
   opacity: 0;
   transition: opacity 0.5s; }
 
-#workshops .col-xs-8 .workshop_card_content {
+#workshops .col-xs-7 .workshop_card_content {
   opacity: 1;
   transition: opacity 0.5s; }
 
@@ -4776,7 +4776,7 @@ a.text-danger:focus, a.text-danger:hover {
   opacity: 1;
   transition: opacity 0.5s; }
 
-#workshops .workshop_card.col-xs-1, #workshops .workshop_card.col-xs-8 {
+#workshops .workshop_card.col-xs-1, #workshops .workshop_card.col-xs-7 {
   transition: width 0.5s; }
 
 #workshops #IU_card, #workshops #UM_card, #workshops #OSU_card {
