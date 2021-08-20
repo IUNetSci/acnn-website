@@ -106,6 +106,7 @@
 							<!-- <div class="clearfix hidden-md-up"></div> -->
 				<div class=" "><span>2020</span><br /><span>Online</span></div>
 				<div class=" "><span>2021</span><br /><span>University of Illinois at Urbana-Champaign</span></div>
+				<div class=" "><span>2022</span><br /><span>University of Texas at Austin</span></div>
 			</div>
 		</div>
 	</header>
@@ -192,8 +193,8 @@
 					</div>
 				</div>
 
-				<div class="workshop_card  container col-xs-7">
-					<div class="card" id="UIUC_card">
+				<div class="workshop_card  container col-xs-1">
+					<div class="card" id="UM_card">
 						<div class="workshop_card_date_only">
 							<span>2020</span>
 						</div>
@@ -210,7 +211,7 @@
 					</div>
 				</div>
 
-				<div class="workshop_card  container col-xs-1">
+				<div class="workshop_card  container col-xs-6">
 					<div class="card" id="UIUC_card">
 						<div class="workshop_card_date_only">
 							<span>2021</span>
@@ -227,7 +228,24 @@
 						</div>
 					</div>
 				</div>
-			
+					<div class="workshop_card  container col-xs-1">
+						<div class="card" id="UT_card">
+							<div class="workshop_card_date_only">
+								<span>2022</span>
+							</div>
+							<div class="workshop_card_content">
+								<div class="workshop_date">
+									<div class="workshop_year">2022</div>
+									<div class="workshop_days">Fall 2022</div>
+								</div>
+								<div class="workshop_title"><a
+									href="ACNN_Workshop_2022.html" >2022 ACNN Workshop on Big
+									Neuroscience Data, Tools, Protocols &amp; Services</a></div>
+								<div class="workshop_location">University of Texas at  Austin</div>
+							</div>
+						</div>
+					</div>
+					
 			</div>
 		</div>
 	</section>
@@ -864,15 +882,15 @@
 				"click",
 				".workshop_card",
 				function() {
-					if($(this).hasClass("col-xs-7"))
+					if($(this).hasClass("col-xs-6"))
 					{
 						location.href=$(this).find("a").attr("href");
 					}
 
 					// console.debug($(this).hasClass("col-xs-9"));
-					$("#workshops .workshop_card.col-xs-7")
-							.addClass("col-xs-1").removeClass("col-xs-7");
-					$(this).removeClass("col-xs-1").addClass("col-xs-7");
+					$("#workshops .workshop_card.col-xs-6")
+							.addClass("col-xs-1").removeClass("col-xs-6");
+					$(this).removeClass("col-xs-1").addClass("col-xs-6");
 				});
 
 		$(function() {
