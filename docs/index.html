@@ -1,91 +1,141 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>ACNN: Advanced Computational Neuroscience Network</title>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta name="description" content="">
+	<title>ACNN: Advanced Computational Neuroscience Network</title>
+	<meta charset="utf-8" />
+	<meta
+		name="viewport"
+		content="width=device-width, initial-scale=1"
+	/>
+	<meta
+		name="description"
+		content=""
+	>
 
 
-<link rel="stylesheet" href="assets-main/css/styles.css?v=5" type="text/css" />
+	<link
+		rel="stylesheet"
+		href="assets-main/css/styles.css?v=5"
+		type="text/css"
+	/>
 
-<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
-<script	src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.5/js/bootstrap.min.js"></script>
 
-<script src='https://www.google.com/recaptcha/api.js'></script>
-<style>
-.d-flex-header
-	{
-		justify-content: center;
-		display: -ms-flexbox!important;
-		display: flex!important;
-	}	
-@media (min-width: 544px) {
-	.main-header
-	{
-		float: none;
-		margin-left: auto;
-		margin-right: auto;
-	}
-	.d-flex > div
-{
-	display: inline-block;
-	width: 45%;
-}
-}
-@media (min-width: 768px) {
-	.d-flex
-	{
-		justify-content: center;
-		display: -ms-flexbox!important;
-		display: flex!important;
-	}
-}
-  @media (min-width: 992px) {
-}
-  @media (min-width: 1200px) {
-}
-.navbar-toggler
-{
-	color: white;
-}
-</style>
+	<script src='https://www.google.com/recaptcha/api.js'></script>
+	<style>
+		.d-flex-header {
+			justify-content: center;
+			display: -ms-flexbox !important;
+			display: flex !important;
+		}
+
+		@media (min-width: 544px) {
+			.main-header {
+				float: none;
+				margin-left: auto;
+				margin-right: auto;
+			}
+
+			.d-flex>div {
+				display: inline-block;
+				width: 45%;
+			}
+		}
+
+		@media (min-width: 768px) {
+			.d-flex {
+				justify-content: center;
+				display: -ms-flexbox !important;
+				display: flex !important;
+			}
+		}
+
+		@media (min-width: 992px) {}
+
+		@media (min-width: 1200px) {}
+
+		.navbar-toggler {
+			color: white;
+		}
+	</style>
 </head>
+
 <body>
 
 	<nav class="navbar navbar-full navbar-dark bg-inverse">
 		<div class="container">
-			<a class="navbar-brand" href="/#top">ACNN</a>
-			<button class="navbar-toggler hidden-md-up" type="button"
-				data-toggle="collapse" data-target="#main_navbar"
-				aria-controls="main_navbar" aria-expanded="false"
-				aria-label="Toggle navigation">&#9776;</button>
-				<div class="clearfix hidden-md-up">&nbsp;</div>
-				<ul
+			<a
+				class="navbar-brand"
+				href="/#top"
+			>ACNN</a>
+			<button
+				class="navbar-toggler hidden-md-up"
+				type="button"
+				data-toggle="collapse"
+				data-target="#main_navbar"
+				aria-controls="main_navbar"
+				aria-expanded="false"
+				aria-label="Toggle navigation"
+			>&#9776;</button>
+			<div class="clearfix hidden-md-up">&nbsp;</div>
+			<ul
 				class="nav navbar-nav collapse navbar-toggleable-sm float-md-right"
-				id="main_navbar">
-				<li class='nav-item'><a href='#workshops' class='nav-link'>Workshops</a></li>
-				<li class='nav-item'><a href='#about' class='nav-link'>About</a></li>
-				<li class='nav-item'><a href='#resources' class='nav-link'>Resources</a></li>
-				<li class='nav-item'><a href='#training' class='nav-link'>Training</a></li>
-				<li class='nav-item'><a href='#partners' class='nav-link'>Partners
+				id="main_navbar"
+			>
+				<li class='nav-item'><a
+						href='#workshops'
+						class='nav-link'
+					>Workshops</a></li>
+				<li class='nav-item'><a
+						href='#about'
+						class='nav-link'
+					>About</a></li>
+				<li class='nav-item'><a
+						href='#resources'
+						class='nav-link'
+					>Resources</a></li>
+				<li class='nav-item'><a
+						href='#training'
+						class='nav-link'
+					>Training</a></li>
+				<li class='nav-item'><a
+						href='#partners'
+						class='nav-link'
+					>Partners
 						&amp; Collaborations</a></li>
 
 
-				<li class='nav-item'><a href='#events' class='nav-link'>News &amp; Events</a></li>
-				<li class='nav-item'><a href='#research' class='nav-link'>Research</a></li>
-				<li class='nav-item'><a href='#contact' class='nav-link'>Contact</a></li>
-				<li class='nav-item'><a href='#donate' class='nav-link'>Donate</a></li>
-				<li class='nav-item'><a href='#credits' class='nav-link'>Credits</a></li>
+				<li class='nav-item'><a
+						href='#events'
+						class='nav-link'
+					>News &amp; Events</a></li>
+				<li class='nav-item'><a
+						href='#research'
+						class='nav-link'
+					>Research</a></li>
+				<li class='nav-item'><a
+						href='#contact'
+						class='nav-link'
+					>Contact</a></li>
+				<li class='nav-item'><a
+						href='#donate'
+						class='nav-link'
+					>Donate</a></li>
+				<li class='nav-item'><a
+						href='#credits'
+						class='nav-link'
+					>Credits</a></li>
 			</ul>
 		</div>
 	</nav>
 
 	<header id="top">
 		<div class="d-flex-header">
-		<h1 class="main-header text-xs-center col-sm-8">Advanced
-			Computational Neuroscience Network (ACNN) Spoke</h1>
+			<h1 class="main-header text-xs-center col-sm-8">Advanced
+				Computational Neuroscience Network (ACNN) Spoke</h1>
 		</div>
 		<div class="container">
 
@@ -96,14 +146,15 @@
 						University</span></div>
 
 				<!-- <div class="clearfix hidden-md-up"></div> -->
-				
+
 				<div class=" "><span>2018</span><br /><span>Ohio
-					State University</span><br /><span>Case Western Reserve University</p></div>
-						
-						<div class=" "><span>2019</span><br /><span>University
-							of Michigan</span></div>
-							
-							<!-- <div class="clearfix hidden-md-up"></div> -->
+						State University</span><br /><span>Case Western Reserve University</p>
+				</div>
+
+				<div class=" "><span>2019</span><br /><span>University
+						of Michigan</span></div>
+
+				<!-- <div class="clearfix hidden-md-up"></div> -->
 				<div class=" "><span>2020</span><br /><span>Online</span></div>
 				<div class=" "><span>2021</span><br /><span>University of Illinois at Urbana-Champaign</span></div>
 				<div class=" "><span>2022</span><br /><span>University of Texas at Austin</span></div>
@@ -119,7 +170,10 @@
 			</h2>
 			<div>
 				<div class="workshop_card  container col-xs-1">
-					<div class="card" id="UM_card">
+					<div
+						class="card"
+						id="UM_card"
+					>
 						<div class="workshop_card_date_only">
 							<span>2016</span>
 						</div>
@@ -129,8 +183,7 @@
 								<div class="workshop_days">Sep 20-21</div>
 							</div>
 							<div class="workshop_title">
-								<a
-									href="ACNN_Workshop_2016.html">2016
+								<a href="ACNN_Workshop_2016.html">2016
 									ACNN Midwest Workshop on Big Neuroscience Data, Tools,
 									Protocols &amp; Services</a>
 							</div>
@@ -140,7 +193,10 @@
 				</div>
 
 				<div class="workshop_card container col-xs-1">
-					<div class="card" id="IU_card">
+					<div
+						class="card"
+						id="IU_card"
+					>
 						<div class="workshop_card_date_only">
 							<span>2017</span>
 						</div>
@@ -149,16 +205,18 @@
 								<div class="workshop_year">2017</div>
 								<div class="workshop_days">Sep 7-9</div>
 							</div>
-							<div class="workshop_title"><a
-									href="ACNN_Workshop_2017.html">2017 ACNN Workshop on Big
-								Neuroscience Data, Tools, Protocols &amp; Services</a></div>
+							<div class="workshop_title"><a href="ACNN_Workshop_2017.html">2017 ACNN Workshop on Big
+									Neuroscience Data, Tools, Protocols &amp; Services</a></div>
 							<div class="workshop_location">Indiana University</div>
 						</div>
 					</div>
 				</div>
 
 				<div class="workshop_card  container col-xs-1">
-					<div class="card" id="OSU_card">
+					<div
+						class="card"
+						id="OSU_card"
+					>
 						<div class="workshop_card_date_only">
 							<span>2018</span>
 						</div>
@@ -167,16 +225,18 @@
 								<div class="workshop_year">2018</div>
 								<div class="workshop_days">Sep 6-7</div>
 							</div>
-							<div class="workshop_title"><a
-									href="ACNN_Workshop_2018.html">2018 ACNN Workshop on Big
-								Neuroscience Data, Tools, Protocols &amp; Services</a></div>
+							<div class="workshop_title"><a href="ACNN_Workshop_2018.html">2018 ACNN Workshop on Big
+									Neuroscience Data, Tools, Protocols &amp; Services</a></div>
 							<div class="workshop_location">Ohio State University - Case Western Reserve University</div>
 						</div>
 					</div>
 				</div>
 
 				<div class="workshop_card  container col-xs-1">
-					<div class="card" id="UM_card">
+					<div
+						class="card"
+						id="UM_card"
+					>
 						<div class="workshop_card_date_only">
 							<span>2019</span>
 						</div>
@@ -185,16 +245,18 @@
 								<div class="workshop_year">2019</div>
 								<div class="workshop_days">Sep 19-20</div>
 							</div>
-							<div class="workshop_title"><a
-								href="ACNN_Workshop_2019.html">2019 ACNN Workshop on Big
-								Neuroscience Data, Tools, Protocols &amp; Services</a></div>
+							<div class="workshop_title"><a href="ACNN_Workshop_2019.html">2019 ACNN Workshop on Big
+									Neuroscience Data, Tools, Protocols &amp; Services</a></div>
 							<div class="workshop_location">University of Michigan</div>
 						</div>
 					</div>
 				</div>
 
 				<div class="workshop_card  container col-xs-1">
-					<div class="card" id="UM_card">
+					<div
+						class="card"
+						id="UM_card"
+					>
 						<div class="workshop_card_date_only">
 							<span>2020</span>
 						</div>
@@ -203,16 +265,18 @@
 								<div class="workshop_year">2020</div>
 								<div class="workshop_days">Sep 3-5</div>
 							</div>
-							<div class="workshop_title"><a
-								href="ACNN_Workshop_2020.html">2020 ACNN Workshop on Big
-								Neuroscience Data, Tools, Protocols &amp; Services</a></div>
+							<div class="workshop_title"><a href="ACNN_Workshop_2020.html">2020 ACNN Workshop on Big
+									Neuroscience Data, Tools, Protocols &amp; Services</a></div>
 							<div class="workshop_location">Online</div>
 						</div>
 					</div>
 				</div>
 
 				<div class="workshop_card  container col-xs-6">
-					<div class="card" id="UIUC_card">
+					<div
+						class="card"
+						id="UIUC_card"
+					>
 						<div class="workshop_card_date_only">
 							<span>2021</span>
 						</div>
@@ -221,31 +285,32 @@
 								<div class="workshop_year">2021</div>
 								<div class="workshop_days">Fall 2021</div>
 							</div>
-							<div class="workshop_title"><a
-								href="ACNN_Workshop_2021.html" >2021 ACNN Workshop on Big
-								Neuroscience Data, Tools, Protocols &amp; Services</a></div>
+							<div class="workshop_title"><a href="ACNN_Workshop_2021.html">2021 ACNN Workshop on Big
+									Neuroscience Data, Tools, Protocols &amp; Services</a></div>
 							<div class="workshop_location">University of Illinois at Urbana-Champaign</div>
 						</div>
 					</div>
 				</div>
-					<div class="workshop_card  container col-xs-1">
-						<div class="card" id="UT_card">
-							<div class="workshop_card_date_only">
-								<span>2022</span>
+				<div class="workshop_card  container col-xs-1">
+					<div
+						class="card"
+						id="UT_card"
+					>
+						<div class="workshop_card_date_only">
+							<span>2022</span>
+						</div>
+						<div class="workshop_card_content">
+							<div class="workshop_date">
+								<div class="workshop_year">2022</div>
+								<div class="workshop_days">Fall 2022</div>
 							</div>
-							<div class="workshop_card_content">
-								<div class="workshop_date">
-									<div class="workshop_year">2022</div>
-									<div class="workshop_days">Fall 2022</div>
-								</div>
-								<div class="workshop_title"><a
-									href="ACNN_Workshop_2022.html" >2022 ACNN Workshop on Big
+							<div class="workshop_title"><a href="ACNN_Workshop_2022.html">2022 ACNN Workshop on Big
 									Neuroscience Data, Tools, Protocols &amp; Services</a></div>
-								<div class="workshop_location">University of Texas at  Austin</div>
-							</div>
+							<div class="workshop_location">University of Texas at Austin</div>
 						</div>
 					</div>
-					
+				</div>
+
 			</div>
 		</div>
 	</section>
@@ -256,90 +321,133 @@
 				<span>About</span>
 			</h2>
 			<p>
-				The <strong>Advanced Computational Neuroscience Network
-					(ACNN)</strong> aims to build broad consensus on the core requirements,
-				infrastructure, and components needed to develop a new generation of
-				sustainable interdisciplinary Neuroscience Big Data research. As a
-				network, ACNN leverages community strengths and resources to drive
-				innovation and collaboration for the understanding of the structure,
-				physiology, and function of the human brain through partnerships and
-				services in education, tools, and best practices. Six major
-				universities in the Midwest (Michigan, Ohio, Indiana, Case Western,
-				Northwestern and Washington U, St. Louis) coordinate the ACNN
-				research, development, training, and dissemination activities. Over
-				25 other universities, industry partners, neuroscience research
-				centers and hospitals collaborator with ACNN investigators on a wire
-				range or basic science, modeling, analytics and applied neuroscience
-				research.
+				The Advanced Computational Neuroscience Network (ACNN) aims to educate a new generation of
+				data-science-ready trainees and build broad consensus on the core requirements, infrastructure, and
+				components needed to develop a sustainable interdisciplinary Big Data Neuroscience research field. As a
+				network, ACNN leverages community strengths and resources to drive innovation and collaboration for the
+				understanding of the structure, cellular and molecular components, physiology, and function of the brain
+				through research collaborations and education activities. Founded over 8 years ago, the ACNN benefits
+				from a large body of over 50 partners – among universities, industry partners, research centers and
+				hospitals.
 			</p>
-			<p>ACNN identifies barriers to neuroscience data sharing,
-				interoperability, and challenges associated with managing Big Data.
-				ACNN forges new collaborations to establish standards using
-				neuroscience-focused ontologies, incorporate provenance metadata
-				management, aggregate tools, index resources and repositories, and
-				curate and share validated pipeline workflow.</p>
-			<p>The ACNN partners provide strong support to the creation of a
-				sustainable neuroscience community that can effectively address the
-				challenges of neuroscience Big Data and leverage the unique
-				resources as well as human capital. The ACNN lead institutions and
-				partners represent aggregated neuroscience domain expertise,
-				computational science in Big Data, and resources from their members
-				to focus on different aspects of neuroscience Big Data: (1) UM
-				(University of Michigan): Automated data workflows, data processing
-				protocols, and analytic tools, (2) WIN
-				(Indiana-Northwestern-Washington Universities): Data management,
-				communication and neuroscience analytics, (3) OCW (Ohio-State and
-				Case Western Universities): neuroscience ontologies, provenance
-				metadata, and high performance computing tools for neuroscience Big
-				Data processing and Application Programming Interface (API). A
-				particular strength of the ACNN is the existing array of
-				neuroscience datasets, analytical tools, and provenance metadata
-				platforms that can be bought together as part of a common data
-				sharing and interoperability platform for the neuroscience research
-				community.</p>
-			<p>The core team of transdisciplinary investigators include:</p>
+			<p>
+				The ACNN partners provide expertise, and strong support to the creation of a sustainable neuroscience
+				community that can effectively address the new challenges in Big Data Neuroscience by leveraging
+				transdisciplinary expertise, informatics and educational resources. The ACNN partners represent
+				aggregated neuroscience domain expertise, computational science, informatics, and resources focussed on
+				different aspects of Big Data Neuroscience.
+			</p>
+
+			<h3>
+				Midwest States Pole
+			</h3>
 			<ul>
 				<li>University of Michigan: <a
-					href="http://www.rcgd.isr.umich.edu/people/gonzalez.html"
-					target="_blank">Rich Gonzales</a>, <a
-					href="https://www.icpsr.umich.edu/icpsrweb/content/about/staff/marcotte.html"
-					target="_blank">John E. Marcotte</a>, <a
-					href="http://www.umich.edu/~dinov"
-					target="_blank">Ivo Dinov</a>
+						href="http://www.rcgd.isr.umich.edu/people/gonzalez.html"
+						target="_blank"
+					>Rich Gonzales</a> (ACNN founder) and <a
+						href="http://www.umich.edu/~dinov"
+						target="_blank"
+					>Ivo Dinov</a> (ACNN founder)
 				</li>
-				<li>Indiana University: <a
-					href="http://psych.indiana.edu/faculty/franpest.php"
-					target="_blank">Franco Pestilli</a>, <a
-					href="http://psych.indiana.edu/faculty/osporns.php"
-					target="_blank">Olaf Sporns</a>, <a
-					href="http://snri.medicine.iu.edu/people/primary-investigators/andrew-saykin-psy-d/"
-					target="_blank">Andrew Saykin</a></li>
 				<li>Ohio State University: <a
-					href="http://web.cse.ohio-state.edu/~panda"
-					target="_blank">Dhabaleswar Panda</a>, <a
-					href="http://web.cse.ohio-state.edu/~luxi"
-					target="_blank">Xiaoyi Lu</a>, <a
-					href="http://web.cse.ohio-state.edu/~subramon"
-					target="_blank">Hari Subramoni</a></li>
-				<li>Case Western Reserve University: <a
-					href="http://bmhinformatics.case.edu/"
-					target="_blank">Satya Sahoo</a>, <a
-						href="http://bmhinformatics.case.edu"
-						target="_blank">Arthur Gershon</a></li>
-				<li>Washington University: <a
-					href="https://www.mir.wustl.edu/research/research-support-facilities/neuroimaging-informatics-analysis-center-niac/our-staff/niac-staff-dan-marcus"
-					target="_blank">Daniel Marcus</a>
-				</li>
-				<li>Northwestern University: <a
+						href="http://web.cse.ohio-state.edu/~panda"
+						target="_blank"
+					>Dhabaleswar Panda</a> (ACNN founder) and <a
 					href="http://www.nuin.northwestern.edu/members-2/lwang"
-					target="_blank">Lei Wang</a></li>
+					target="_blank"
+				>Lei Wang</a> (ACNN founder)</li>
+				<li>Case Western Reserve University: <a
+						href="http://bmhinformatics.case.edu/"
+						target="_blank"
+					>Satya Sahoo</a> (ACNN founder) </li>
 				<li>University of Illinois at Urbana-Champaign: <a
-					href="http://sanmi.cs.illinois.edu/"
-					target="_blank">Sanmi Koyejo</a>, <a
-					href="https://connectlab.beckman.illinois.edu/people-2/"
-					target="_blank">Sepideh Sadaghiani</a>, <a
-					href="https://beckman.illinois.edu/directory/person/bsutton"
-					target="_blank">Brad Sutton</a></li>
+						href="http://sanmi.cs.illinois.edu/"
+						target="_blank"
+					>Sanmi Koyejo</a>, <a
+						href="https://connectlab.beckman.illinois.edu/people-2/"
+						target="_blank"
+					>Sepideh Sadaghiani</a>, <a
+						href="https://beckman.illinois.edu/directory/person/bsutton"
+						target="_blank"
+					>Brad Sutton</a></li>
+
+			</ul>
+
+			<h3>
+				Southern States Pole
+			</h3>
+			<ul>
+				<li>
+					Georgia State University:
+					Jessica Turner
+
+				</li>
+				<li>
+					University of Arkansas:
+					Josiah Leong
+
+				</li>
+				<li>
+					University of Texas at Austin:
+					<a
+						href="http://psych.indiana.edu/faculty/franpest.php"
+						target="_blank"
+					>Franco Pestilli</a> (ACNN founder)
+					and Susanne Ressl
+
+				</li>
+				<li>
+					University of Alabama:
+					Sharlene Newman
+
+				</li>
+
+			</ul>
+
+			<h3>
+				Past Members
+			</h3>
+			<ul>
+
+				<li>Indiana University: <a
+						href="http://psych.indiana.edu/faculty/osporns.php"
+						target="_blank"
+					>Olaf Sporns</a> and <a
+						href="http://snri.medicine.iu.edu/people/primary-investigators/andrew-saykin-psy-d/"
+						target="_blank"
+					>Andrew Saykin</a></li>
+
+				<li>Washington University: <a
+						href="https://www.mir.wustl.edu/research/research-support-facilities/neuroimaging-informatics-analysis-center-niac/our-staff/niac-staff-dan-marcus"
+						target="_blank"
+					>Daniel Marcus</a>
+				</li>
+
+				<li>University of Michigan: <a
+						href="https://www.icpsr.umich.edu/web/pages/about/staff-profile.html?node=1746"
+						target="_blank"
+					>John E. Marcotte</a>
+				</li>
+
+				<li>Ohio State University:
+					<a
+						href="http://web.cse.ohio-state.edu/~subramon"
+						target="_blank"
+					>Hari Subramoni</a>
+				</li>
+				<li>University of California at Merced:
+					<a
+						href="http://web.cse.ohio-state.edu/~luxi"
+						target="_blank"
+					>Xiaoyi Lu</a>
+				</li>
+				<li>Case Western Reserve University:
+					<a
+						href="http://bmhinformatics.case.edu"
+						target="_blank"
+					>Arthur Gershon</a>
+				</li>
 
 			</ul>
 		</div>
@@ -350,25 +458,35 @@
 				<span>Resources</span>
 			</h2>
 
-            <h3><span>Software</span></h3>
+			<h3><span>Software</span></h3>
 			<ul>
-				<li><a href="http://neurohpc.cse.ohio-state.edu/" target='_blank'>OSU NeuroHPC Project</a></li>
+				<li><a
+						href="http://neurohpc.cse.ohio-state.edu/"
+						target='_blank'
+					>OSU NeuroHPC Project</a></li>
 			</ul>
-            <h3><span>Lectures</span></h3>
-            <ul class="">
-                <li><a href="https://bigdatau.ini.usc.edu/data-science-seminars" target="_blank">Big Data to Knowledge Initiative lectures</a></li>
-            </ul>
+			<h3><span>Lectures</span></h3>
+			<ul class="">
+				<li><a
+						href="https://bigdatau.ini.usc.edu/data-science-seminars"
+						target="_blank"
+					>Big Data to Knowledge Initiative lectures</a></li>
+			</ul>
 
 			<div class="text-xs-center">
-				<a class="btn btn-outline-primary" target="_blank"
-					href="https://docs.google.com/forms/d/e/1FAIpQLSf6_BkI7G1tNmk-ZXebiwchRNqylxD3CqJpW4isAAixFqCMDw/viewform">Submit
+				<a
+					class="btn btn-outline-primary"
+					target="_blank"
+					href="https://docs.google.com/forms/d/e/1FAIpQLSf6_BkI7G1tNmk-ZXebiwchRNqylxD3CqJpW4isAAixFqCMDw/viewform"
+				>Submit
 					Resource</a>
 			</div>
 			<br />
 			<p>
 				This <a
 					href="https://docs.google.com/forms/d/e/1FAIpQLSf6_BkI7G1tNmk-ZXebiwchRNqylxD3CqJpW4isAAixFqCMDw/viewform"
-					target="_blank">web-form</a> can be used to submit items for
+					target="_blank"
+				>web-form</a> can be used to submit items for
 				inclusion in the sharable resources. Examples (not an exclusive
 				list) of appropriate resources that may be suggested includes:
 			</p>
@@ -383,9 +501,11 @@
 			<p>
 				You can see a <a
 					href="https://docs.google.com/forms/d/1nCnxtbvp-V9mQOSbfzhHBW17LlwoyzfntadvqBRYKsA/viewanalytics?pli=1&usp=form_confirm"
-					target="_blank">real-time summary of the results</a> and a <a
+					target="_blank"
+				>real-time summary of the results</a> and a <a
 					href="https://docs.google.com/spreadsheets/d/1QDJqsqxg8oWAe3ofdEcPSoeVLF7fzSa31_kySs6RDCw/"
-					target="_blank">tabular representation of previously submitted
+					target="_blank"
+				>tabular representation of previously submitted
 					resource meta-data</a>.
 			</p>
 
@@ -434,7 +554,10 @@
 		</div>
 	</section>
 
-	<section id='training' class="">
+	<section
+		id='training'
+		class=""
+	>
 		<div class='container'>
 			<h2>
 				<span>Training</span>
@@ -460,7 +583,10 @@
 	</section>
 
 
-	<section id='partners' class="">
+	<section
+		id='partners'
+		class=""
+	>
 		<div class='container'>
 
 			<h2>
@@ -477,7 +603,8 @@
 				</div>
 				<div class="partner_blurb col-xs-6">
 					<h3>University of Michigan</h3>
-					<p class="faded"><a href="http://socr.umich.edu/">Statistics Online Computaitonal Resource (SOCR)</a>.</p>
+					<p class="faded"><a href="http://socr.umich.edu/">Statistics Online Computaitonal Resource
+							(SOCR)</a>.</p>
 				</div>
 			</div>
 
@@ -549,7 +676,10 @@
 
 
 
-	<section id='events' class=''>
+	<section
+		id='events'
+		class=''
+	>
 		<div class='container'>
 			<h2>
 				<span>News &amp; Events</span>
@@ -560,7 +690,11 @@
 			<h3><span>News</span></h3>
 
 			<div>
-				<p class="event"><span>June 12, 2017</span> - <a href="https://news.iu.edu/stories/2017/06/iub/12-science-azure-awards.html" target="_blank">IU researchers awarded access to Microsoft cloud to advance neuroscience, big data training</a> (via News at IU Bloomington)</p>
+				<p class="event"><span>June 12, 2017</span> - <a
+						href="https://news.iu.edu/stories/2017/06/iub/12-science-azure-awards.html"
+						target="_blank"
+					>IU researchers awarded access to Microsoft cloud to advance neuroscience, big data training</a>
+					(via News at IU Bloomington)</p>
 			</div>
 
 			<br /><br />
@@ -598,37 +732,74 @@
 
 			<div>
 				<p class="event">
-					<div><b>Summer 2017 Data Science and Predictive Analytics (DSPA) MOOC</b></div>
-					<div><small><b>Date:</b> Starting July 01, 2017, self-paced</small></div>
-					<div><small><b>URL:</b> <a href="http://DSPA.predictive.space" target="_blank">http://DSPA.predictive.space</a></small></div>
-					<div><small><b>Instructor:</b> <a href="http://www.umich.edu/~dinov/" target="_blank">Ivo D. Dinov</a></small></div>
-					<div><small><b>Institution:</b> University of Michigan</small></div>
-					<div><small><b>Certification:</b> <a href="http://www.socr.umich.edu/people/dinov/2017/Summer/DSPA_HS650/DSPA_CertPlanning.html" target="_blank">Dynamic flowchart - pathways to partial DSPA MOOC completion certification</a></small></div>
-					<div><small><b>Coverage:</b> <a href="http://www.socr.umich.edu/people/dinov/2017/Summer/DSPA_HS650/DSPA_Topics.html" target="_blank">The following topics will be covered </a></small></div>
-					<div><small><b>Prerequisites:</b> <a href="http://www.socr.umich.edu/people/dinov/2017/Summer/DSPA_HS650/DSPA_Prereqs.html" target="_blank">General DSPA Prerequisites</a></small></div>
-					<div><small><b>Outcome Competencies:</b> <a href="http://www.socr.umich.edu/people/dinov/2017/Summer/DSPA_HS650/DSPA_Competencies.html" target="_blank">This course is designed to build specific data science skills and predictive analytic competencies</a></small></div>
-					<div><small><b>Registration</b> is free</small></div>
+				<div><b>Summer 2017 Data Science and Predictive Analytics (DSPA) MOOC</b></div>
+				<div><small><b>Date:</b> Starting July 01, 2017, self-paced</small></div>
+				<div><small><b>URL:</b> <a
+							href="http://DSPA.predictive.space"
+							target="_blank"
+						>http://DSPA.predictive.space</a></small></div>
+				<div><small><b>Instructor:</b> <a
+							href="http://www.umich.edu/~dinov/"
+							target="_blank"
+						>Ivo D. Dinov</a></small></div>
+				<div><small><b>Institution:</b> University of Michigan</small></div>
+				<div><small><b>Certification:</b> <a
+							href="http://www.socr.umich.edu/people/dinov/2017/Summer/DSPA_HS650/DSPA_CertPlanning.html"
+							target="_blank"
+						>Dynamic flowchart - pathways to partial DSPA MOOC completion certification</a></small></div>
+				<div><small><b>Coverage:</b> <a
+							href="http://www.socr.umich.edu/people/dinov/2017/Summer/DSPA_HS650/DSPA_Topics.html"
+							target="_blank"
+						>The following topics will be covered </a></small></div>
+				<div><small><b>Prerequisites:</b> <a
+							href="http://www.socr.umich.edu/people/dinov/2017/Summer/DSPA_HS650/DSPA_Prereqs.html"
+							target="_blank"
+						>General DSPA Prerequisites</a></small></div>
+				<div><small><b>Outcome Competencies:</b> <a
+							href="http://www.socr.umich.edu/people/dinov/2017/Summer/DSPA_HS650/DSPA_Competencies.html"
+							target="_blank"
+						>This course is designed to build specific data science skills and predictive analytic
+							competencies</a></small></div>
+				<div><small><b>Registration</b> is free</small></div>
 				</p>
 				<p class="event">
-					<div><b>IBRO-APRC School on Neuroinformatics and Brain Network Analysis</b></div>
-					<div><small><b>Date:</b> Aug 10-18, 2017</small></div>
-					<div><small><b>Location:</b> Kuala Lumpur, Malaysia</small></div>
-					<div><small><b>Website:</b> <a href="http://ibro.info/events/applications-open-for-ibro-aprc-school-on-neuroinformatics-and-brain-network-analysis/" target="_blank">http://ibro.info/events/applications-open-for-ibro-aprc-school-on-neuroinformatics-and-brain-network-analysis/</a></small></div>
-					<div><small><b>Summary: </b> ACNN Investigators are co-organizing a INCF/IBRO Neuroscience Summer School for graduate students and postdoctoral fellows on (1) Statistical Computing, (2) High Throughput Processing of Neuroscience Big Data, and (3) Neuroimaging-genetics. The Summer Neuroscience School is part of the <a href="https://www.incf.org" target="_blank">International Neuroinformatics Coordinating Facility (INCF)/International Brain Research Organization</a></small></div>
+				<div><b>IBRO-APRC School on Neuroinformatics and Brain Network Analysis</b></div>
+				<div><small><b>Date:</b> Aug 10-18, 2017</small></div>
+				<div><small><b>Location:</b> Kuala Lumpur, Malaysia</small></div>
+				<div><small><b>Website:</b> <a
+							href="http://ibro.info/events/applications-open-for-ibro-aprc-school-on-neuroinformatics-and-brain-network-analysis/"
+							target="_blank"
+						>http://ibro.info/events/applications-open-for-ibro-aprc-school-on-neuroinformatics-and-brain-network-analysis/</a></small>
+				</div>
+				<div><small><b>Summary: </b> ACNN Investigators are co-organizing a INCF/IBRO Neuroscience Summer School
+						for graduate students and postdoctoral fellows on (1) Statistical Computing, (2) High Throughput
+						Processing of Neuroscience Big Data, and (3) Neuroimaging-genetics. The Summer Neuroscience
+						School is part of the <a
+							href="https://www.incf.org"
+							target="_blank"
+						>International Neuroinformatics Coordinating Facility (INCF)/International Brain Research
+							Organization</a></small></div>
 				</p>
 
 				<div class="text-muted">
 					<p class="event">
-						<div><b>Big Data Regional Innovation Hubs and Spokes Workshop BDHubs, Held in conjunction with the 31st IEEE International Parallel and Distributed Processing Symposium</b></div>
-						<div><small><b>Date:</b>  June 2, 2017</small></div>
-						<div><small><b>Location:</b> Buena Vista Palace Hotel, Orlando, Florida, USA</small></div>
-						<div><small><b>Website:</b> <a href="https://www.nsf.gov/cise/bdspokes/index.jsp" target="_blank">https://www.nsf.gov/cise/bdspokes/index.jsp</a></small></div>
+					<div><b>Big Data Regional Innovation Hubs and Spokes Workshop BDHubs, Held in conjunction with the
+							31st IEEE International Parallel and Distributed Processing Symposium</b></div>
+					<div><small><b>Date:</b> June 2, 2017</small></div>
+					<div><small><b>Location:</b> Buena Vista Palace Hotel, Orlando, Florida, USA</small></div>
+					<div><small><b>Website:</b> <a
+								href="https://www.nsf.gov/cise/bdspokes/index.jsp"
+								target="_blank"
+							>https://www.nsf.gov/cise/bdspokes/index.jsp</a></small></div>
 					</p>
 					<p class="event">
-						<div><b>2017 Joint PI Meeting: NSF BIGDATA and Big Data Hubs &amp; Spokes</b></div>
-						<div><small><b>Date:</b> Mar 15-17, 2017</small></div>
-						<div><small><b>Location:</b> Omni Shoreham Hotel, DC</small></div>
-						<div><small><b>Website:</b> <a href="https://www.bi.vt.edu/nsf-big-data" target="_blank">https://www.bi.vt.edu/nsf-big-data</a></small></div>
+					<div><b>2017 Joint PI Meeting: NSF BIGDATA and Big Data Hubs &amp; Spokes</b></div>
+					<div><small><b>Date:</b> Mar 15-17, 2017</small></div>
+					<div><small><b>Location:</b> Omni Shoreham Hotel, DC</small></div>
+					<div><small><b>Website:</b> <a
+								href="https://www.bi.vt.edu/nsf-big-data"
+								target="_blank"
+							>https://www.bi.vt.edu/nsf-big-data</a></small></div>
 					</p>
 				</div>
 			</div>
@@ -636,10 +807,42 @@
 			<br /><br />
 
 			<div class="container text-xs-center">
-				<iframe class="hidden-md-down" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FAFAFA&amp;src=eman0iqcr07ooukk8qhkrjtkko%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FNew_York" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
-				<iframe class="hidden-lg-up hidden-sm-down" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FAFAFA&amp;src=eman0iqcr07ooukk8qhkrjtkko%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FNew_York" style="border-width:0" width="700" height="600" frameborder="0" scrolling="no"></iframe>
-				<iframe class="hidden-md-up hidden-xs-down" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23FAFAFA&amp;src=eman0iqcr07ooukk8qhkrjtkko%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FNew_York" style="border-width:0" width="500" height="500" frameborder="0" scrolling="no"></iframe>
-				<iframe class="hidden-sm-up" src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=500&amp;wkst=1&amp;bgcolor=%23FAFAFA&amp;src=eman0iqcr07ooukk8qhkrjtkko%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FNew_York" style="border-width:0" width="300" height="500" frameborder="0" scrolling="no"></iframe>
+				<iframe
+					class="hidden-md-down"
+					src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FAFAFA&amp;src=eman0iqcr07ooukk8qhkrjtkko%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FNew_York"
+					style="border-width:0"
+					width="800"
+					height="600"
+					frameborder="0"
+					scrolling="no"
+				></iframe>
+				<iframe
+					class="hidden-lg-up hidden-sm-down"
+					src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=600&amp;wkst=1&amp;bgcolor=%23FAFAFA&amp;src=eman0iqcr07ooukk8qhkrjtkko%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FNew_York"
+					style="border-width:0"
+					width="700"
+					height="600"
+					frameborder="0"
+					scrolling="no"
+				></iframe>
+				<iframe
+					class="hidden-md-up hidden-xs-down"
+					src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showPrint=0&amp;showCalendars=0&amp;height=500&amp;wkst=1&amp;bgcolor=%23FAFAFA&amp;src=eman0iqcr07ooukk8qhkrjtkko%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FNew_York"
+					style="border-width:0"
+					width="500"
+					height="500"
+					frameborder="0"
+					scrolling="no"
+				></iframe>
+				<iframe
+					class="hidden-sm-up"
+					src="https://calendar.google.com/calendar/embed?showTitle=0&amp;showNav=0&amp;showDate=0&amp;showPrint=0&amp;showCalendars=0&amp;mode=AGENDA&amp;height=500&amp;wkst=1&amp;bgcolor=%23FAFAFA&amp;src=eman0iqcr07ooukk8qhkrjtkko%40group.calendar.google.com&amp;color=%23B1440E&amp;ctz=America%2FNew_York"
+					style="border-width:0"
+					width="300"
+					height="500"
+					frameborder="0"
+					scrolling="no"
+				></iframe>
 
 			</div>
 
@@ -704,7 +907,8 @@
 					contribution of scientific expertise and technologies will allow
 					bringing “online” and harnessing the long tail of neuroscience data
 					currently available but limitedly accessible to a majority of
-					investigators within the Midwest.</li>
+					investigators within the Midwest.
+				</li>
 			</ol>
 			<p>The core goal of the ACNN Spoke is to build a sustainable
 				ecosystem of neuroscience community partners in both academia and
@@ -724,9 +928,14 @@
 				community building over a number of years.</p>
 
 
-            <p>
-                The <a href="https://scholar.google.com/scholar?hl=en&as_sdt=1%2C23&q=NSF+AND+%28%221636840%22+OR+%221636846%22+OR+%221636893%22+OR+%221636850%22+OR+%221550320%22%29&btnG=" target="_blank" rel="noopener noreferrer" >ACNN publications</a> illustrate the breadth and depth of neuroscience research conducted at member institutions. 
-            </p>
+			<p>
+				The <a
+					href="https://scholar.google.com/scholar?hl=en&as_sdt=1%2C23&q=NSF+AND+%28%221636840%22+OR+%221636846%22+OR+%221636893%22+OR+%221636850%22+OR+%221550320%22%29&btnG="
+					target="_blank"
+					rel="noopener noreferrer"
+				>ACNN publications</a> illustrate the breadth and depth of neuroscience research conducted at member
+				institutions.
+			</p>
 		</div>
 	</section>
 	<section id='contact'>
@@ -744,7 +953,10 @@
 		</div>
 	</section>
 
-	<section id='donate' class="">
+	<section
+		id='donate'
+		class=""
+	>
 		<div class='container'>
 			<h2>
 				<span>Donate</span>
@@ -753,74 +965,166 @@
 				research, education, training, and development activities by
 				donating to any of the 4 primary institutions.</p>
 			<ul class="list-inline text-xs-center">
-				<li class="list-inline-item"><a class="btn btn-outline-primary"
-					target="_blank"
-					href="https://leadersandbest.umich.edu/find/#!/give/basket/fund/322547?keyword=socr">University
+				<li class="list-inline-item"><a
+						class="btn btn-outline-primary"
+						target="_blank"
+						href="https://leadersandbest.umich.edu/find/#!/give/basket/fund/322547?keyword=socr"
+					>University
 						of Michigan Giving</a></li>
-				<li class="hidden-sm-up" aria-hidden="true">&nbsp;</li>
-				<li class="list-inline-item"><a class="btn btn-outline-primary"
-					target="_blank" href="https://www.myiu.org/give-now">Indiana
+				<li
+					class="hidden-sm-up"
+					aria-hidden="true"
+				>&nbsp;</li>
+				<li class="list-inline-item"><a
+						class="btn btn-outline-primary"
+						target="_blank"
+						href="https://www.myiu.org/give-now"
+					>Indiana
 						University Giving</a></li>
-				<li class="hidden-xl-up" aria-hidden="true">&nbsp;</li>
-				<li class="list-inline-item"><a class="btn btn-outline-primary"
-					target="_blank" href="http://giving.case.edu/">Case Western
+				<li
+					class="hidden-xl-up"
+					aria-hidden="true"
+				>&nbsp;</li>
+				<li class="list-inline-item"><a
+						class="btn btn-outline-primary"
+						target="_blank"
+						href="http://giving.case.edu/"
+					>Case Western
 						Reserve University Giving</a></li>
-				<li class="hidden-md-up" aria-hidden="true">&nbsp;</li>
-				<li class="hidden-lg-down" aria-hidden="true">&nbsp;</li>
-				<li class="list-inline-item"><a class="btn btn-outline-primary"
-					target="_blank" href="https://www.giveto.osu.edu/">Ohio State
+				<li
+					class="hidden-md-up"
+					aria-hidden="true"
+				>&nbsp;</li>
+				<li
+					class="hidden-lg-down"
+					aria-hidden="true"
+				>&nbsp;</li>
+				<li class="list-inline-item"><a
+						class="btn btn-outline-primary"
+						target="_blank"
+						href="https://www.giveto.osu.edu/"
+					>Ohio State
 						University Giving</a></li>
 
-						<li class="hidden-xl-up" aria-hidden="true">&nbsp;</li>
-				<li class="list-inline-item"><a class="btn btn-outline-primary"
-					target="_blank" href="https://beckman.illinois.edu/about/giving">Beckman Institute Giving</a></li>
+				<li
+					class="hidden-xl-up"
+					aria-hidden="true"
+				>&nbsp;</li>
+				<li class="list-inline-item"><a
+						class="btn btn-outline-primary"
+						target="_blank"
+						href="https://beckman.illinois.edu/about/giving"
+					>Beckman Institute Giving</a></li>
 			</ul>
 		</div>
 	</section>
 
-	<section id='credits' class="">
+	<section
+		id='credits'
+		class=""
+	>
 		<div class='container'>
 			<h2>
 				<span>Credits</span>
 			</h2>
-			<p>The research, development, education activities, and scholarship of the Advanced Computational Neuroscience Network (ACNN) is made possible by:</p>
+			<p>The research, development, education activities, and scholarship of the Advanced Computational
+				Neuroscience Network (ACNN) is made possible by:</p>
 			<p>The National Science Foundation (NSF)</p>
-			<p>NSF grants <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636840">1636840</a>, <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636846">1636846</a>, <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636893">1636893</a>, <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636850">1636850</a>, and <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1550320">1550320</a> provide partial ACNN support</p>
+			<p>NSF grants <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636840">1636840</a>, <a
+					href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636846"
+				>1636846</a>, <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636893">1636893</a>, <a
+					href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636850"
+				>1636850</a>, and <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1550320">1550320</a> provide
+				partial ACNN support</p>
 			<p>Participating organizations</p>
 			<ul>
-			<li><a href="http://www.umich.edu">University of Michigan</a>: <a href="http://midas.umich.edu">Michigan Institute for Data Science (MIDAS)</a> and <a href="http://socr.umich.edu">Statistics Online Computational Resource (SOCR)</a></li>
-			<li><a href="http://www.iupui.edu">Indiana University</a>: <a href="http://neuroscience.iupui.edu/research/indiana-university-center-neuroimaging">Indiana Computational Neuroimaging Research</a> and <a href="http://iuni.iu.edu">IUNI</a></li>
-			<li><a href="http://www.ohio-state.edu">Ohio State University</a>: <a href="http://nowlab.cse.ohio-state.edu">OSU Network Based Computing</a></li>
-			<li><a href="http://www.case.edu">Case Western Reserve University</a>: <a href="http://bmhinformatics.case.edu">CWRU Biomedical and Healthcare Informatics</a></li>
-			<li><a href="https://www.wustl.edu">Washington University</a>: <a href="https://www.mir.wustl.edu/research/research-support-facilities/neuroimaging-informatics-analysis-center-niac">Neuroimaging Informatics and Analysis Center</a></li>
-			<li><a href="http://www.northwestern.edu">Northwestern University</a>: <a href="http://niacal.northwestern.edu">Neuroimaging and Applied Computational Anatomy</a></li>
-			<li><a href="https://illinois.edu/">University of Illinois at Urbana-Champaign</a>: <a href="http://beckman.illinois.edu/">Beckman Institute for Advanced Science and Technology</a></li>
+				<li><a href="http://www.umich.edu">University of Michigan</a>: <a href="http://midas.umich.edu">Michigan
+						Institute for Data Science (MIDAS)</a> and <a href="http://socr.umich.edu">Statistics Online
+						Computational Resource (SOCR)</a></li>
+				<li><a href="http://www.iupui.edu">Indiana University</a>: <a
+						href="http://neuroscience.iupui.edu/research/indiana-university-center-neuroimaging"
+					>Indiana Computational Neuroimaging Research</a> and <a href="http://iuni.iu.edu">IUNI</a></li>
+				<li><a href="http://www.ohio-state.edu">Ohio State University</a>: <a
+						href="http://nowlab.cse.ohio-state.edu"
+					>OSU Network Based Computing</a></li>
+				<li><a href="http://www.case.edu">Case Western Reserve University</a>: <a
+						href="http://bmhinformatics.case.edu"
+					>CWRU Biomedical and Healthcare Informatics</a></li>
+				<li><a href="https://www.wustl.edu">Washington University</a>: <a
+						href="https://www.mir.wustl.edu/research/research-support-facilities/neuroimaging-informatics-analysis-center-niac"
+					>Neuroimaging Informatics and Analysis Center</a></li>
+				<li><a href="http://www.northwestern.edu">Northwestern University</a>: <a
+						href="http://niacal.northwestern.edu"
+					>Neuroimaging and Applied Computational Anatomy</a></li>
+				<li><a href="https://illinois.edu/">University of Illinois at Urbana-Champaign</a>: <a
+						href="http://beckman.illinois.edu/"
+					>Beckman Institute for Advanced Science and Technology</a></li>
 			</ul>
 			<p>Principal investigators</p>
-			<p>A team of transdisciplinary investigators from the <a href="http://www.neurosciencenetwork.org/">Advanced Computational Neuroscience Network (ACNN)</a>, including:</p>
+			<p>A team of transdisciplinary investigators from the <a href="http://www.neurosciencenetwork.org/">Advanced
+					Computational Neuroscience Network (ACNN)</a>, including:</p>
 			<ul>
-			<li>University of Michigan: <a href="http://www.umich.edu/~dinov">Ivo Dinov</a>, <a href="http://www.rcgd.isr.umich.edu/people/gonzalez.html">Rich Gonzales</a>, <a href="https://www.icpsr.umich.edu/icpsrweb/content/about/staff/marcotte.html">John Marcotte</a></li>
-			<li>Indiana University: <a href="http://psych.indiana.edu/faculty/franpest.php">Franco Pestilli</a>, <a href="http://psych.indiana.edu/faculty/osporns.php">Olaf Sporns</a>, <a href="http://snri.medicine.iu.edu/people/primary-investigators/andrew-saykin-psy-d/">Andrew Saykin</a></li>
-			<li>OSU: <a href="http://web.cse.ohio-state.edu/~panda">Dhabaleswar Panda</a>, <a href="https://cse.osu.edu/people/hamidouche.2">Khaled Hamidouche</a>, <a href="http://web.cse.ohio-state.edu/~luxi">Xiaoyi Lu</a>, <a href="http://web.cse.ohio-state.edu/~subramon">Hari Subramoni</a></li>
-			<li>CWRU: <a href="http://bmhinformatics.case.edu/">Satya Sahoo</a></li>
-			<li>Washington University: <a href="https://www.mir.wustl.edu/research/research-support-facilities/neuroimaging-informatics-analysis-center-niac/our-staff/niac-staff-dan-marcus">Daniel Marcus</a>, and Northwestern University: <a href="http://www.nuin.northwestern.edu/members-2/lwang">Lei Wang</a></li>
+				<li>University of Michigan: <a href="http://www.umich.edu/~dinov">Ivo Dinov</a>, <a
+						href="http://www.rcgd.isr.umich.edu/people/gonzalez.html"
+					>Rich Gonzales</a>, <a
+						href="https://www.icpsr.umich.edu/icpsrweb/content/about/staff/marcotte.html">John Marcotte</a>
+				</li>
+				<li>Indiana University: <a href="http://psych.indiana.edu/faculty/franpest.php">Franco Pestilli</a>, <a
+						href="http://psych.indiana.edu/faculty/osporns.php"
+					>Olaf Sporns</a>, <a
+						href="http://snri.medicine.iu.edu/people/primary-investigators/andrew-saykin-psy-d/"
+					>Andrew Saykin</a></li>
+				<li>OSU: <a href="http://web.cse.ohio-state.edu/~panda">Dhabaleswar Panda</a>, <a
+						href="https://cse.osu.edu/people/hamidouche.2"
+					>Khaled Hamidouche</a>, <a href="http://web.cse.ohio-state.edu/~luxi">Xiaoyi Lu</a>, <a
+						href="http://web.cse.ohio-state.edu/~subramon"
+					>Hari Subramoni</a></li>
+				<li>CWRU: <a href="http://bmhinformatics.case.edu/">Satya Sahoo</a></li>
+				<li>Washington University: <a
+						href="https://www.mir.wustl.edu/research/research-support-facilities/neuroimaging-informatics-analysis-center-niac/our-staff/niac-staff-dan-marcus"
+					>Daniel Marcus</a>, and Northwestern University: <a
+						href="http://www.nuin.northwestern.edu/members-2/lwang"
+					>Lei Wang</a></li>
 			</ul>
 			<p>Web-development</p>
 			<ul>
-			<li><a href="http://iuni.iu.edu">IUNI</a>: Ben Serrette, Christian Briggs, Valentin Pentchev, Franco Pestilli</li>
-			<li><a href="http://midas.umich.edu">MIDAS</a> and <a href="http://socr.umich.edu">SOCR</a>: Alex Kalinin, Syed Husain, Kinnothan Nelson, Ivo Dinov</li>
+				<li><a href="http://iuni.iu.edu">IUNI</a>: Ben Serrette, Christian Briggs, Valentin Pentchev, Franco
+					Pestilli</li>
+				<li><a href="http://midas.umich.edu">MIDAS</a> and <a href="http://socr.umich.edu">SOCR</a>: Alex
+					Kalinin, Syed Husain, Kinnothan Nelson, Ivo Dinov</li>
 			</ul>
 
 			<p>Affiliates
-				<ul>
-					<li><a href="https://sice.indiana.edu/contact/profile/?profile_id=460" target="_blank">Eleftherios Garyfallidis</a></li>
-					<li><a href="http://sanmi.cs.illinois.edu/" target="_blank">Sanmi Koyejo</a></li>
-					<li><a href="https://sps.columbia.edu/node/4856" target="_blank">Kamyar Moud</a></li>
-					<li><a href="https://dentprod.sites.uofmhosting.net/directory/hjassar" target="_blank">Hassan Jassar</a></li>
-					<li><a href="https://spire.unc.edu/spire-community/spire-scholars/monica-gaudier-diaz-ph-d/" target="_blank">Monica Michelle Gaudier Diaz</a></li>
-					<li><a href="https://fullstackneuro.io/" target="_blank">Josiah Leong</a></li>
-					<li><a href="https://psychology.tcd.ie/people/kenneyj/" target="_blank">Joanne Kenney</a></li>
-				</ul>
+			<ul>
+				<li><a
+						href="https://sice.indiana.edu/contact/profile/?profile_id=460"
+						target="_blank"
+					>Eleftherios Garyfallidis</a></li>
+				<li><a
+						href="http://sanmi.cs.illinois.edu/"
+						target="_blank"
+					>Sanmi Koyejo</a></li>
+				<li><a
+						href="https://sps.columbia.edu/node/4856"
+						target="_blank"
+					>Kamyar Moud</a></li>
+				<li><a
+						href="https://dentprod.sites.uofmhosting.net/directory/hjassar"
+						target="_blank"
+					>Hassan Jassar</a></li>
+				<li><a
+						href="https://spire.unc.edu/spire-community/spire-scholars/monica-gaudier-diaz-ph-d/"
+						target="_blank"
+					>Monica Michelle Gaudier Diaz</a></li>
+				<li><a
+						href="https://fullstackneuro.io/"
+						target="_blank"
+					>Josiah Leong</a></li>
+				<li><a
+						href="https://psychology.tcd.ie/people/kenneyj/"
+						target="_blank"
+					>Joanne Kenney</a></li>
+			</ul>
 
 			<br />
 			<h2>
@@ -828,24 +1132,46 @@
 			</h2>
 
 			<div>Please submit this form if you are interested in being an affiliate of the ACNN</div>
-			<form class="form" method="POST" action="./process_form.php">
+			<form
+				class="form"
+				method="POST"
+				action="./process_form.php"
+			>
 				<div class="form-group">
 					<label for="">Name</label>
-					<input type="text" name="Name" class="form-control">
+					<input
+						type="text"
+						name="Name"
+						class="form-control"
+					>
 				</div>
-		
+
 				<div class="form-group">
 					<label for="">Institution</label>
-					<input type="text" name="Institution" class="form-control">
+					<input
+						type="text"
+						name="Institution"
+						class="form-control"
+					>
 				</div>
 				<div class="form-group">
 					<label for="">Email</label>
-					<input class="form-control" type="email" name="Email" />
+					<input
+						class="form-control"
+						type="email"
+						name="Email"
+					/>
 				</div>
 				<p>
-					<div class="g-recaptcha" data-sitekey="6LdyoWgUAAAAAASOTvtVeqErG01KP__-f_u3oJB5"></div>
+				<div
+					class="g-recaptcha"
+					data-sitekey="6LdyoWgUAAAAAASOTvtVeqErG01KP__-f_u3oJB5"
+				></div>
 				</p>
-				<button class="btn btn-outline-primary" type="submit">Submit</button>
+				<button
+					class="btn btn-outline-primary"
+					type="submit"
+				>Submit</button>
 
 			</form>
 
@@ -860,11 +1186,12 @@
 				<div><a href="https://github.com/IUNetSci/acnn-website">GitHub (ACNN Website)</a></div>
 				<div><a href="https://github.com/BigDataNeuroscience">GitHub (ACNN BigDataNeuroscience)</a></div>
 				<div>The Advanced Computational Neuroscience Network (ACNN) is partially supported by NSF grants
-				<a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636840">1636840</a>,
-				    	<a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636846">1636846</a>,
-				    	<a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636893">1636893</a>,
-				    	<a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636850">1636850</a>, and
-				    	<a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1550320">1550320</a>. </div>
+					<a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636840">1636840</a>,
+					<a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636846">1636846</a>,
+					<a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636893">1636893</a>,
+					<a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1636850">1636850</a>, and
+					<a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1550320">1550320</a>.
+				</div>
 			</div>
 
 		</div>
@@ -879,54 +1206,56 @@
 		// 	console.debug("konami");
 		// });
 		$("#workshops").on(
-				"click",
-				".workshop_card",
-				function() {
-					if($(this).hasClass("col-xs-6"))
-					{
-						location.href=$(this).find("a").attr("href");
-					}
+			"click",
+			".workshop_card",
+			function () {
+				if ($(this).hasClass("col-xs-6")) {
+					location.href = $(this).find("a").attr("href");
+				}
 
-					// console.debug($(this).hasClass("col-xs-9"));
-					$("#workshops .workshop_card.col-xs-6")
-							.addClass("col-xs-1").removeClass("col-xs-6");
-					$(this).removeClass("col-xs-1").addClass("col-xs-6");
-				});
+				// console.debug($(this).hasClass("col-xs-9"));
+				$("#workshops .workshop_card.col-xs-6")
+					.addClass("col-xs-1").removeClass("col-xs-6");
+				$(this).removeClass("col-xs-1").addClass("col-xs-6");
+			});
 
-		$(function() {
+		$(function () {
 			$('a[href*="#"]:not([href="#"])')
-					.click(
-							function() {
-								if (location.pathname.replace(/^\//, '') == this.pathname
-										.replace(/^\//, '')
-										&& location.hostname == this.hostname) {
-									var target = $(this.hash);
-									target = target.length ? target
-											: $('[name=' + this.hash.slice(1)
-													+ ']');
-									if (target.length) {
-										$('html, body').animate({
-											scrollTop : target.offset().top
-										}, 1000);
-										return false;
-									}
-								}
-							});
+				.click(
+					function () {
+						if (location.pathname.replace(/^\//, '') == this.pathname
+							.replace(/^\//, '')
+							&& location.hostname == this.hostname) {
+							var target = $(this.hash);
+							target = target.length ? target
+								: $('[name=' + this.hash.slice(1)
+									+ ']');
+							if (target.length) {
+								$('html, body').animate({
+									scrollTop: target.offset().top
+								}, 1000);
+								return false;
+							}
+						}
+					});
 		});
 	</script>
 
 
-<script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	<script>
+		(function (i, s, o, g, r, a, m) {
+			i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+				(i[r].q = i[r].q || []).push(arguments)
+			}, i[r].l = 1 * new Date(); a = s.createElement(o),
+				m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+		})(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
 
-  ga('create', 'UA-90149405-7', 'auto');
-  ga('send', 'pageview');
+		ga('create', 'UA-90149405-7', 'auto');
+		ga('send', 'pageview');
 
-</script>
+	</script>
 
 
 </body>
+
 </html>
